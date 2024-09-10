@@ -245,7 +245,7 @@
                     },
 					{
                         "name": "Power Cell (Defeat the Dark Eco Plant)",
-						"access_rules": ["BlueSwitch,CanFight","BlueSwitch,$no_rando"],
+						"access_rules": ["Elevator,BlueSwitch,CanFight","Elevator,BlueSwitch,$no_rando"],
                         "item_count": 1
                     },
 					{
