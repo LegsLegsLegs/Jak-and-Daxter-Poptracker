@@ -1,0 +1,22 @@
+﻿// https://chriskirknielsen.com/fonts/ottselesque/
+{
+    "name": "Jak and Daxter Poptracker",
+    "game_name": "Jak and Daxter, The Precursor Legacy",
+    "package_version": "1.0.0.0",
+    "package_uid": "Jak and Daxter",
+    "author": "Legs",
+    "variants": {
+        "standard": {
+            "display_name": "Map Tracker",
+            "flags": [
+                "ap" //enables AP autotracking interface - remove if not needed
+            ]
+        },
+        "var_itemsonly": {
+            "display_name": "Items Only",
+            "flags": [
+                "ap" //enables AP autotracking interface - remove if not needed
+            ]
+        }
+    }
+}

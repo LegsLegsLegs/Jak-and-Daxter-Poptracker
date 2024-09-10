@@ -1,0 +1,458 @@
+//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+[
+//Move Abilities
+    {
+        "name": "Crouch",
+        "type": "toggle",
+        "img": "images/items/Crouch.png",
+        "codes": "Crouch"
+    },
+	{
+        "name": "Crouch Jump",
+        "type": "toggle",
+        "img": "images/items/Crouch Jump.png",
+        "codes": "CrouchJump"
+    },
+	{
+        "name": "Crouch Uppercut",
+        "type": "toggle",
+        "img": "images/items/Crouch Uppercut.png",
+        "codes": "CrouchUppercut"
+    },
+	{
+        "name": "Roll",
+        "type": "toggle",
+        "img": "images/items/Roll.png",
+        "codes": "Roll"
+    },
+	{
+        "name": "Roll Jump",
+        "type": "toggle",
+        "img": "images/items/Roll Jump.png",
+        "codes": "RollJump"
+    },
+	{
+        "name": "Double Jump",
+        "type": "toggle",
+        "img": "images/items/Double Jump.png",
+        "codes": "DoubleJump"
+    },
+	{
+        "name": "Jump Dive",
+        "type": "toggle",
+        "img": "images/items/Jump Dive.png",
+        "codes": "JumpDive,CanFight"
+    },
+	{
+        "name": "Jump Kick",
+        "type": "toggle",
+        "img": "images/items/Jump Kick.png",
+        "codes": "JumpKick,CanFight"
+    },
+	{
+        "name": "Punch",
+        "type": "toggle",
+        "img": "images/items/Punch.png",
+        "codes": "Punch,CanFight"
+    },
+	{
+        "name": "Punch Uppercut",
+        "type": "toggle",
+        "img": "images/items/Punch Uppercut.png",
+        "codes": "PunchUppercut"
+    },
+	{
+        "name": "Kick",
+        "type": "toggle",
+        "img": "images/items/Kick.png",
+        "codes": "Kick,CanFight"
+    },
+//Gate Items
+{
+        "name": "Fisherman's Boat",
+        "type": "toggle",
+        "img": "images/items/Boat.png",
+        "codes": "Boat"
+    },
+	{
+        "name": "Jungle Elevator",
+        "type": "toggle",
+        "img": "images/items/Elevator.png",
+        "codes": "Elevator"
+    },
+	{
+        "name": "Blue Eco Switch",
+        "type": "toggle",
+        "img": "images/items/Blue Eco Switch.png",
+        "codes": "BlueSwitch"
+    },
+	{
+        "name": "Flut Flut",
+        "type": "toggle",
+        "img": "images/items/Flut Flut.png",
+        "codes": "FlutFlut"
+    },
+	{
+        "name": "Warrior's Pontoons",
+        "type": "toggle",
+        "img": "images/items/Warrior Pontoons.png",
+        "codes": "Pontoons"
+    },
+	{
+        "name": "Snowy Mountain Gondola",
+        "type": "toggle",
+        "img": "images/items/Gondola.png",
+        "codes": "Gondola"
+    },
+	{
+        "name": "Yellow Eco Switch",
+        "type": "toggle",
+        "img": "images/items/Yellow Eco Switch.png",
+        "codes": "YellowSwitch"
+    },
+	{
+        "name": "Snowy Fort Gate",
+        "type": "toggle",
+        "img": "images/items/Fort Gate.png",
+        "codes": "FortGate"
+    },
+	{
+        "name": "Freed The Blue Sage",
+        "type": "toggle",
+        "img": "images/items/Freed Blue.png",
+        "codes": "FreedBlue,SagesFreed"
+    },
+	{
+        "name": "Freed The Red Sage",
+        "type": "toggle",
+        "img": "images/items/Freed Red.png",
+        "codes": "FreedRed,SagesFreed"
+    },
+	{
+        "name": "Freed The Yellow Sage",
+        "type": "toggle",
+        "img": "images/items/Freed Yellow.png",
+        "codes": "FreedYellow,SagesFreed"
+    },
+	{
+        "name": "Freed The Green Sage",
+        "type": "toggle",
+        "img": "images/items/Freed Green.png",
+        "codes": "FreedGreen"
+    },
+//Power Cells
+    {
+        "name": "Power Cell",
+        "type": "consumable",
+        "img": "images/items/Cell.png",
+        "max_quantity": 101,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "PowerCell"
+    },
+//Scout Flies
+	{
+        "name": "Scout Fly - GR",
+        "type": "consumable",
+        "img": "images/items/Scout Fly.png",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "SF_GR"
+    },
+	{
+        "name": "Scout Fly - SV",
+        "type": "consumable",
+        "img": "images/items/Scout Fly.png",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "SF_SV"
+    },
+	{
+        "name": "Scout Fly - FJ",
+        "type": "consumable",
+        "img": "images/items/Scout Fly.png",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "SF_FJ"
+    },
+	{
+        "name": "Scout Fly - SB",
+        "type": "consumable",
+        "img": "images/items/Scout Fly.png",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "SF_SB"
+    },
+	{
+        "name": "Scout Fly - MI",
+        "type": "consumable",
+        "img": "images/items/Scout Fly.png",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "SF_MI"
+    },
+	{
+        "name": "Scout Fly - FC",
+        "type": "consumable",
+        "img": "images/items/Scout Fly.png",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "SF_FC"
+    },
+	{
+        "name": "Scout Fly - RV",
+        "type": "consumable",
+        "img": "images/items/Scout Fly.png",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "SF_RV"
+    },
+	{
+        "name": "Scout Fly - PB",
+        "type": "consumable",
+        "img": "images/items/Scout Fly.png",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "SF_PB"
+    },
+	{
+        "name": "Scout Fly - LPC",
+        "type": "consumable",
+        "img": "images/items/Scout Fly.png",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "SF_LPC"
+    },
+	{
+        "name": "Scout Fly - BS",
+        "type": "consumable",
+        "img": "images/items/Scout Fly.png",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "SF_BS"
+    },
+	{
+        "name": "Scout Fly - MP",
+        "type": "consumable",
+        "img": "images/items/Scout Fly.png",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "SF_MP"
+    },
+	{
+        "name": "Scout Fly - VC",
+        "type": "consumable",
+        "img": "images/items/Scout Fly.png",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "SF_VC"
+    },
+	{
+        "name": "Scout Fly - SC",
+        "type": "consumable",
+        "img": "images/items/Scout Fly.png",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "SF_SC"
+    },
+	{
+        "name": "Scout Fly - SM",
+        "type": "consumable",
+        "img": "images/items/Scout Fly.png",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "SF_SM"
+    },
+	{
+        "name": "Scout Fly - LT",
+        "type": "consumable",
+        "img": "images/items/Scout Fly.png",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "SF_LT"
+    },
+	{
+        "name": "Scout Fly - GMC",
+        "type": "consumable",
+        "img": "images/items/Scout Fly.png",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "SF_GMC"
+    },
+//Precursor Orbs
+	{
+        "name": "Percursor Orb",
+        "type": "consumable",
+        "img": "images/items/Orb.png",
+        "max_quantity": 2000,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "Orb"
+    },
+//Cell Gates
+	{
+        "name": "Fire Canyon",
+        "type": "consumable",
+        "img": "images/items/Fire Canyon.png",
+        "max_quantity": 2000,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "FC_Cells"
+    },
+	{
+        "name": "Mountain Pass",
+        "type": "consumable",
+        "img": "images/items/Mountain Pass.png",
+        "max_quantity": 2000,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "MP_Cells"
+    },
+	{
+        "name": "Lava Tube",
+        "type": "consumable",
+        "img": "images/items/Lava Tube.png",
+        "max_quantity": 2000,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "LT_Cells"
+    },
+//Move Rando
+	{
+        "name": "Moves Randomized",
+        "type": "toggle",
+        "codes": "MoveRando"
+    },
+//Goals
+	{
+        "name": "Goals",
+        "type": "progressive",
+        "img": "images/items/Orb.png",
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "Goal",
+		"initial_stage_idx": 0,
+		"stages": [ {
+			"img": "images/items/Dark Eco Plant.png",
+			"codes": "Goal,Goal_Plant",
+			"inherit_codes": false,
+			"name": "Goal: Defeat Dark Eco Plant" // since 0.21.1
+			},
+			{
+			"img": "images/items/Fire Canyon.png",
+			"codes": "Goal,Goal_Fire",
+			"inherit_codes": false,
+			"name": "Goal: Cross Fire Canyon" // since 0.21.1
+			},
+			{
+			"img": "images/items/Klaww.png",
+			"codes": "Goal,Goal_Klaww",
+			"inherit_codes": false,
+			"name": "Goal: Defeat Klaww" // since 0.21.1
+			},
+			{
+			"img": "images/items/Mountain Pass.png",
+			"codes": "Goal,Goal_Mountain",
+			"inherit_codes": false,
+			"name": "Goal: Cross Mountain Pass" // since 0.21.1
+			},
+			{
+			"img": "images/items/Lava Tube.png",
+			"codes": "Goal,Goal_Lava",
+			"inherit_codes": false,
+			"name": "Goal: Cross Lava Tube" // since 0.21.1
+			},
+			{
+			"img": "images/items/100 Cell Door.png",
+			"codes": "Goal,Goal_Door",
+			"inherit_codes": false,
+			"name": "Goal: Open 100 Cell Door" // since 0.21.1
+			},
+			{
+			"img": "images/items/Gol and Maia.png",
+			"codes": "Goal,Goal_G&M",
+			"inherit_codes": false,
+			"name": "Goal: Defeat Gol and Maia" // since 0.21.1
+			},
+		]
+    },
+]
