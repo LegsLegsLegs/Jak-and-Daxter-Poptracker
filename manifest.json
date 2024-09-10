@@ -5,6 +5,7 @@
     "package_version": "1.0.0.0",
     "package_uid": "Jak and Daxter",
     "author": "Legs",
+    "versions_url": "https://raw.githubusercontent.com/LegsLegsLegs/Jak-and-Daxter-Poptracker/versions/versions.json",
     "variants": {
         "standard": {
             "display_name": "Map Tracker",
