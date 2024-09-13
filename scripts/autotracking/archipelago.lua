@@ -78,8 +78,17 @@ function onClear(slot_data)
 		end
 	end
 
-    if slot_data["jak_completion_condition"] then
-		Tracker:FindObjectForCode('Goal').CurrentStage = slot_data["jak_completion_condition"]
+	if slot_data["jak_completion_condition"] then
+		local Goal = slot_data["jak_completion_condition"]
+		local item = Tracker:FindObjectForCode('Goal')
+		if Goal == 69 then item.CurrentStage = 2
+		elseif Goal == 87 then item.CurrentStage = 4
+		elseif Goal == 89 then item.CurrentStage = 5
+		elseif Goal == 6 then item.CurrentStage = 1
+		elseif Goal == 86 then item.CurrentStage = 3
+		elseif Goal == 112 then item.CurrentStage = 7
+		elseif Goal == 116 then item.CurrentStage = 6
+		end
 	end
 
     LOCAL_ITEMS = {}
