@@ -348,7 +348,7 @@
     },
 //Precursor Orbs
 	{
-        "name": "Percursor Orb",
+        "name": "Precursor Orb",
         "type": "consumable",
         "img": "images/items/Orb.png",
         "max_quantity": 2000,
@@ -358,6 +358,15 @@
         "overlay_background": "#000000",
         "overlay_font_size": 8,
         "codes": "Orb"
+    },
+	{
+        "name": "Orb Bundle",
+        "type": "consumable",
+        "max_quantity": 2000,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "BundleSize"
     },
 //Cell Gates
 	{
@@ -402,6 +411,17 @@
         "type": "toggle",
         "codes": "MoveRando"
     },
+//Trade Amounts
+	{
+        "name": "Citizen Trade Cost",
+        "type": "consumable",
+        "codes": "Citizen"
+    },
+	{
+        "name": "Oracle Trade Cost",
+        "type": "consumable",
+        "codes": "Oracle"
+    },
 //Goals
 	{
         "name": "Goals",
@@ -411,12 +431,23 @@
         "overlay_font_size": 8,
         "codes": "Goal",
 		"initial_stage_idx": 0,
-		"stages": [ 
+		"stages": [ {
+			"img": "images/items/Dark Eco Plant.png",
+			"codes": "Goal,Goal_Plant",
+			"inherit_codes": false,
+			"name": "Goal: Defeat Dark Eco Plant" // since 0.21.1
+			},
 			{
 			"img": "images/items/Fire Canyon.png",
 			"codes": "Goal,Goal_Fire",
 			"inherit_codes": false,
 			"name": "Goal: Cross Fire Canyon" // since 0.21.1
+			},
+			{
+			"img": "images/items/Klaww.png",
+			"codes": "Goal,Goal_Klaww",
+			"inherit_codes": false,
+			"name": "Goal: Defeat Klaww" // since 0.21.1
 			},
 			{
 			"img": "images/items/Mountain Pass.png",
@@ -431,28 +462,16 @@
 			"name": "Goal: Cross Lava Tube" // since 0.21.1
 			},
 			{
-			"img": "images/items/Dark Eco Plant.png",
-			"codes": "Goal,Goal_Plant",
+			"img": "images/items/100 Cell Door.png",
+			"codes": "Goal,Goal_Door",
 			"inherit_codes": false,
-			"name": "Goal: Defeat Dark Eco Plant" // since 0.21.1
-			},
-			{
-			"img": "images/items/Klaww.png",
-			"codes": "Goal,Goal_Klaww",
-			"inherit_codes": false,
-			"name": "Goal: Defeat Klaww" // since 0.21.1
+			"name": "Goal: Open 100 Cell Door" // since 0.21.1
 			},
 			{
 			"img": "images/items/Gol and Maia.png",
 			"codes": "Goal,Goal_G&M",
 			"inherit_codes": false,
 			"name": "Goal: Defeat Gol and Maia" // since 0.21.1
-			},
-			{
-			"img": "images/items/100 Cell Door.png",
-			"codes": "Goal,Goal_Door",
-			"inherit_codes": false,
-			"name": "Goal: Open 100 Cell Door" // since 0.21.1
 			},
 		]
     },

@@ -50,12 +50,12 @@
                     },
 					{
                         "name": "Power Cell (90 Orbs to the Mayor)",
-						"access_rules": ["Orbs: X"],
+						"access_rules": ["$orb_trades"],
                         "item_count": 1
                     },
 					{
                         "name": "Power Cell (90 Orbs to Your Uncle)",
-						"access_rules": ["Orbs: X"],
+						"access_rules": ["$orb_trades"],
                         "item_count": 1
                     },
 					{
@@ -64,7 +64,7 @@
                     },
 					{
                         "name": "Power Cell (120 Orbs to the Oracle)",
-						"access_rules": ["Orbs: X,DoubleJump,JumpKick","Orbs: X,Roll,RollJump","Orbs: x,$no_rando"],
+						"access_rules": ["$orb_trades,DoubleJump,JumpKick","$orb_trades,Roll,RollJump","$orb_trades,$no_rando"],
                         "item_count": 2
                     },
 					{
@@ -457,22 +457,22 @@
                     },
 					{
                         "name": "Power Cell (90 Orbs to the Gambler)",
-						"access_rules": ["Orbs: X"],
+						"access_rules": ["$orb_trades"],
                         "item_count": 1
                     },
 					{
                         "name": "Power Cell (90 Orbs to the Geologist)",
-						"access_rules": ["Orbs: X"],
+						"access_rules": ["$orb_trades"],
                         "item_count": 1
                     },
 					{
                         "name": "Power Cell (90 Orbs to the Warrior)",
-						"access_rules": ["Orbs: X"],
+						"access_rules": ["$orb_trades"],
                         "item_count": 1
                     },
 					{
                         "name": "Power Cell (120 Orbs to the Oracle)",
-						"access_rules": ["Orbs: X"],
+						"access_rules": ["$orb_trades"],
                         "item_count": 2
                     },
 					{
@@ -835,12 +835,12 @@
                     },
 					{
                         "name": "Power Cell (90 Orbs to the Miners)",
-						"access_rules": ["Orbs: X"],
+						"access_rules": ["$orb_trades"],
                         "item_count": 4
                     },
 					{
                         "name": "Power Cell (120 Orbs to the Oracle)",
-						"access_rules": ["Orbs: X"],
+						"access_rules": ["$orb_trades"],
                         "item_count": 2
                     },
 					{
@@ -1060,7 +1060,6 @@
         "children": [
             {
                 "name": "Lava Tube",
-				"access_rules": ["PowerCell: X,PowerCell: Y,PowerCell: Z"],
                 "sections": [
 					{
                         "name": "Power Cell (7 Scout Flies)",
