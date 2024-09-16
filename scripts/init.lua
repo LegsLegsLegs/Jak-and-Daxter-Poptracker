@@ -42,3 +42,5 @@ Tracker:AddLayouts("layouts/broadcast.json")
 if PopVersion and PopVersion >= "0.18.0" then
     ScriptHost:LoadScript("scripts/autotracking.lua")
 end
+
+ScriptHost:AddWatchForCode("flycell", "FlyCell", flycell)

@@ -348,7 +348,7 @@
     },
 //Precursor Orbs
 	{
-        "name": "Percursor Orb",
+        "name": "Precursor Orb",
         "type": "consumable",
         "img": "images/items/Orb.png",
         "max_quantity": 2000,
@@ -358,6 +358,15 @@
         "overlay_background": "#000000",
         "overlay_font_size": 8,
         "codes": "Orb"
+    },
+	{
+        "name": "Orb Bundle",
+        "type": "consumable",
+        "max_quantity": 2000,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "BundleSize"
     },
 //Cell Gates
 	{
@@ -401,6 +410,17 @@
         "name": "Moves Randomized",
         "type": "toggle",
         "codes": "MoveRando"
+    },
+//Trade Amounts
+	{
+        "name": "Citizen Trade Cost",
+        "type": "consumable",
+        "codes": "Citizen"
+    },
+	{
+        "name": "Oracle Trade Cost",
+        "type": "consumable",
+        "codes": "Oracle"
     },
 //Goals
 	{
