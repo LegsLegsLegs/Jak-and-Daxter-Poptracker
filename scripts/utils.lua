@@ -46,16 +46,6 @@ function cell_gate(x)
 		return true
 	end
 end
-function orb_trades()
-	local citizens = Tracker:FindObjectForCode('Citizen').AcquiredCount*9
-	local oracles = Tracker:FindObjectForCode('Oracle').AcquiredCount*6
-	local trades = citizens + oracles
-	if Tracker:FindObjectForCode('Orb').AcquiredCount >= trades then
-		return true
-	end
-	return false
-end
-
 
 function no_rando()
 	local MoveRando = Tracker:FindObjectForCode("MoveRando").Active

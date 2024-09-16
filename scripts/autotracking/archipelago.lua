@@ -58,7 +58,7 @@ function onClear(slot_data)
             end
         end
     end
-	Tracker:FindObjectForCode('Orb').AcquiredCount = 0
+	
 	if slot_data["fire_canyon_cell_count"] then
 		Tracker:FindObjectForCode('FC_Cells').AcquiredCount = slot_data["fire_canyon_cell_count"]
 	end
@@ -70,38 +70,16 @@ function onClear(slot_data)
 	if slot_data["lava_tube_cell_count"] then
 		Tracker:FindObjectForCode('LT_Cells').AcquiredCount = slot_data["lava_tube_cell_count"]
 	end
+	
 	if slot_data["enable_move_randomizer"] then
 		Tracker:FindObjectForCode('MoveRando').Active = slot_data["enable_move_randomizer"]
 		if slot_data["enable_move_randomizer"] then
 			Tracker:AddLayouts("layouts/moves.json")
 		end
 	end
-	if slot_data["citizen_orb_trade_amount"] then
-		Tracker:FindObjectForCode('Citizen').AcquiredCount = slot_data["citizen_orb_trade_amount"]
-	end
-	if slot_data["oracle_orb_trade_amount"] then
-		Tracker:FindObjectForCode('Oracle').AcquiredCount = slot_data["oracle_orb_trade_amount"]
-	end
+
     if slot_data["jak_completion_condition"] then
-		local Goal = slot_data["jak_completion_condition"]
-		local item = Tracker:FindObjectForCode('Goal')
-		if Goal == 69 then item.CurrentStage = 2
-		elseif Goal == 87 then item.CurrentStage = 4
-		elseif Goal == 89 then item.CurrentStage = 5
-		elseif Goal == 6 then item.CurrentStage = 1
-		elseif Goal == 86 then item.CurrentStage = 3
-		elseif Goal == 112 then item.CurrentStage = 7
-		elseif Goal == 116 then item.CurrentStage = 6
-		end
-	end
-	
-	if slot_data["enable_orbsanity"] then
-		local Mode = slot_data["enable_orbsanity"]
-		if Mode == 1 then
-			Tracker:FindObjectForCode('BundleSize').AcquiredCount = slot_data["level_orbsanity_bundle_size"]
-		elseif Mode == 2 then
-			Tracker:FindObjectForCode('BundleSize').AcquiredCount = slot_data["global_orbsanity_bundle_size"]
-		end
+		Tracker:FindObjectForCode('Goal').CurrentStage = slot_data["jak_completion_condition"]
 	end
 
     LOCAL_ITEMS = {}
@@ -110,7 +88,6 @@ function onClear(slot_data)
     if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
         -- add snes interface functions here
     end
-	print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
 end
 
 -- called when an item gets collected
@@ -125,12 +102,6 @@ function onItem(index, item_id, item_name, player_number)
         return
     end
     local is_local = player_number == Archipelago.PlayerNumber
-	print(item_name)
-	print(string.sub(item_name, 1, 6))
-	if string.sub(item_name, 1, 6) == "Bundle" then
-		local BundleSize = Tracker:FindObjectForCode('BundleSize').AcquiredCount
-		Tracker:FindObjectForCode('Orb').AcquiredCount = Tracker:FindObjectForCode('Orb').AcquiredCount + BundleSize
-	end
     CUR_INDEX = index;
     local v = ITEM_MAPPING[item_id]
     if not v then
@@ -184,7 +155,8 @@ function onItem(index, item_id, item_name, player_number)
     if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
         -- add snes interface functions here for local item tracking
     end
-end	
+end
+
 -- called when a location gets cleared
 function onLocation(location_id, location_name)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
