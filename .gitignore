@@ -1,0 +1,7 @@
+todo.*
+.~lock.*
+*.xcf
+Logic Map.jpg
+.github/workflows/discord_webhook.yml
+.github/workflows/validation.yml
+.github/workflows/action.md

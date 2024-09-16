@@ -7,11 +7,6 @@
             {
                 "name": "Geyser Rock",               
                 "sections": [
-                    {
-                        "name": "Power Cell (7 Scout Flies)",
-						"access_rules": ["SF_GR:7"],
-                        "item_count": 1
-                    },
 					{
                         "name": "Power Cell (Cell on the Path)",
                         "item_count": 1
@@ -43,19 +38,14 @@
             {
                 "name": "Sandover Village",
                 "sections": [
-                    {
-                        "name": "Power Cell (7 Scout Flies)",
-						"access_rules": ["SF_SV:7"],
-                        "item_count": 1
-                    },
 					{
                         "name": "Power Cell (90 Orbs to the Mayor)",
-						"access_rules": ["Orbs: X"],
+						"access_rules": ["$orb_trades"],
                         "item_count": 1
                     },
 					{
                         "name": "Power Cell (90 Orbs to Your Uncle)",
-						"access_rules": ["Orbs: X"],
+						"access_rules": ["$orb_trades"],
                         "item_count": 1
                     },
 					{
@@ -64,7 +54,7 @@
                     },
 					{
                         "name": "Power Cell (120 Orbs to the Oracle)",
-						"access_rules": ["Orbs: X,DoubleJump,JumpKick","Orbs: X,Roll,RollJump","Orbs: x,$no_rando"],
+						"access_rules": ["$orb_trades,DoubleJump,JumpKick","$orb_trades,Roll,RollJump","$orb_trades,$no_rando"],
                         "item_count": 2
                     },
 					{
@@ -117,11 +107,6 @@
 			{
                 "name": "Sentinel Beach",
                 "sections": [
-                    {
-                        "name": "Power Cell (7 Scout Flies)",
-						"access_rules": ["SF_SB:7"],
-                        "item_count": 1
-                    },
 					{
                         "name": "Power Cell (Unblock the Eco Harvesters)",
 						"access_rules": ["CanFight","$no_rando"],
@@ -213,11 +198,6 @@
 			{
                 "name": "Forbidden Jungle",
                 "sections": [
-                    {
-                        "name": "Power Cell (7 Scout Flies)",
-						"access_rules": ["SF_FJ:7"],
-                        "item_count": 1
-                    },
 					{
                         "name": "Power Cell (Connect the Eco Beams)",
 						"access_rules": ["CanFight","$no_rando"],
@@ -315,16 +295,8 @@
         "children": [
             {
                 "name": "Misty Island",
-                "access_rules": [
-                    //read as: toggle
-                    "Boat"                  
-                ],
+                "access_rules": ["Boat"],
                 "sections": [
-                    {
-                        "name": "Power Cell (7 Scout Flies)",
-						"access_rules": ["SF_MI:7"],
-                        "item_count": 1
-                    },
 					{
                         "name": "Power Cell (Catch the Sculptor's Muse)",
                         "item_count": 1
@@ -416,11 +388,6 @@
                 "name": "Fire Canyon",
 				"access_rules": ["$cell_gate|1"],
                 "sections": [
-                    {
-                        "name": "Power Cell (7 Scout Flies)",
-						"access_rules": ["SF_FC:7"],
-                        "item_count": 1
-                    },
 					{
                         "name": "Power Cell (Reach the End of Fire Canyon)",
                         "item_count": 1
@@ -450,29 +417,24 @@
 			{
                 "name": "Rock Village",               
                 "sections": [
-                    {
-                        "name": "Power Cell (7 Scout Flies)",
-						"access_rules": ["SF_RV:7"],
-                        "item_count": 1
-                    },
 					{
                         "name": "Power Cell (90 Orbs to the Gambler)",
-						"access_rules": ["Orbs: X"],
+						"access_rules": ["$orb_trades"],
                         "item_count": 1
                     },
 					{
                         "name": "Power Cell (90 Orbs to the Geologist)",
-						"access_rules": ["Orbs: X"],
+						"access_rules": ["$orb_trades"],
                         "item_count": 1
                     },
 					{
                         "name": "Power Cell (90 Orbs to the Warrior)",
-						"access_rules": ["Orbs: X"],
+						"access_rules": ["$orb_trades"],
                         "item_count": 1
                     },
 					{
                         "name": "Power Cell (120 Orbs to the Oracle)",
-						"access_rules": ["Orbs: X"],
+						"access_rules": ["$orb_trades"],
                         "item_count": 2
                     },
 					{
@@ -530,11 +492,6 @@
             {
                 "name": "Precursor Basin",               
                 "sections": [
-                    {
-                        "name": "Power Cell (7 Scout Flies)",
-						"access_rules": ["SF_PB:7"],
-                        "item_count": 1
-                    },
 					{
                         "name": "Power Cell (Herd the Moles)",
                         "item_count": 1
@@ -582,11 +539,6 @@
                 "name": "Boggy Swamp",
 				"access_rules": ["Pontoons"],
                 "sections": [
-                    {
-                        "name": "Power Cell (7 Scout Flies)",
-						"access_rules": ["SF_BS:7"],
-                        "item_count": 1
-                    },
 					{
                         "name": "Power Cell (Ride the Flut Flut)",
 						"access_rules": ["FlutFlut"],
@@ -664,11 +616,6 @@
 			{
                 "name": "Lost Precursor City",
                 "sections": [
-                    {
-                        "name": "Power Cell (7 Scout Flies)",
-						"access_rules": ["SF_LPC:7"],
-                        "item_count": 1
-                    },
 					{
                         "name": "Power Cell (Raise the Chamber)",
 						"access_rules": ["JumpDive,DoubleJump","JumpDive,JumpKick","JumpDive,Punch,PunchUppercut","$no_rando"],
@@ -790,11 +737,6 @@
 				"access_rules": ["$cell_gate|2"],
                 "sections": [
 					{
-                        "name": "Power Cell (7 Scout Flies)",
-						"access_rules": ["SF_FC:7"],
-                        "item_count": 1
-                    },
-					{
                         "name": "Power Cell (Reach the End of Mountain Pass)",
                         "item_count": 1
                     },
@@ -828,19 +770,14 @@
 			{
                 "name": "Volcanic Crater",               
                 "sections": [
-                    {
-                        "name": "Power Cell (7 Scout Flies)",
-						"access_rules": ["SF_VC:7"],
-                        "item_count": 1
-                    },
 					{
                         "name": "Power Cell (90 Orbs to the Miners)",
-						"access_rules": ["Orbs: X"],
+						"access_rules": ["$orb_trades"],
                         "item_count": 4
                     },
 					{
                         "name": "Power Cell (120 Orbs to the Oracle)",
-						"access_rules": ["Orbs: X"],
+						"access_rules": ["$orb_trades"],
                         "item_count": 2
                     },
 					{
@@ -866,11 +803,6 @@
             {
                 "name": "Spider Cave",               
                 "sections": [
-                    {
-                        "name": "Power Cell (7 Scout Flies)",
-						"access_rules": ["SF_SC:7"],
-                        "item_count": 1
-                    },
 					{
                         "name": "Power Cell (Shoot the Gnawing Lurkers)",
                         "item_count": 1
@@ -947,11 +879,6 @@
                 "name": "Snowy Mountain",
 				"access_rules": ["Gondola"],
                 "sections": [
-                    {
-                        "name": "Power Cell (7 Scout Flies)",
-						"access_rules": ["SF_SM:7"],
-                        "item_count": 1
-                    },
 					{
 						"name": "Snowy Mountain Gondola",
 						"access_rules": ["Gondola"],
@@ -1060,13 +987,7 @@
         "children": [
             {
                 "name": "Lava Tube",
-				"access_rules": ["PowerCell: X,PowerCell: Y,PowerCell: Z"],
                 "sections": [
-					{
-                        "name": "Power Cell (7 Scout Flies)",
-						"access_rules": ["SF_LT:7"],
-                        "item_count": 1
-                    },
 					{
                         "name": "Power Cell (Reach the End of Lava Tube)",
                         "item_count": 1
@@ -1096,11 +1017,6 @@
                 "name": "Gol and Maia's Citadel",
 				"access_rules": ["PowerCell: X"],
                 "sections": [
-					{
-                        "name": "Power Cell (7 Scout Flies)",
-						"access_rules": ["SF_LT:7"],
-                        "item_count": 1
-                    },
 					{
                         "name": "Power Cell (Free the Blue Sage)",
 						"access_rules": ["JumpDive,CanFight,DoubleJump,Punch,PunchUppercut","JumpDive,CanFight,JumpKick,Punch,PunchUppercut","JumpDive,CanFight,DoubleJump,Roll,RollJump","JumpDive,CanFight,JumpKick,Roll,RollJump","$no_rando"],
@@ -1205,6 +1121,105 @@
                     {
                         "map": "map1",
                         "x": 630,
+                        "y": 90,
+						"size": 10
+                    },
+                ]
+            },
+		]
+	},
+//Scout Flies
+	{
+        "name": "{Power Cell (7 Scout Flies)",
+        "children": [
+            {
+                "name": "Power Cell (7 Scout Flies)",
+                "sections": [
+					{
+                        "name": "Geyser Rock",
+						"access_rules": ["SF_GR:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Sandover Village",
+						"access_rules": ["SF_SV:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Sentinel Beach",
+						"access_rules": ["SF_SB:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Forbidden Jungle",
+						"access_rules": ["SF_FJ:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Misty Island",
+						"access_rules": ["SF_MI:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Fire Canyon",
+						"access_rules": ["SF_FC:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Rock Village",
+						"access_rules": ["SF_RV:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Precursor Basin",
+						"access_rules": ["SF_PB:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Boggy Swamp",
+						"access_rules": ["SF_BS:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Lost Precursor City",
+						"access_rules": ["SF_LPC:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Mountain Pass",
+						"access_rules": ["SF_MP:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Volcanic Crater",
+						"access_rules": ["SF_VC:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Spider Cave",
+						"access_rules": ["SF_SC:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Snowy Mountain",
+						"access_rules": ["SF_SM:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Lava Tube",
+						"access_rules": ["SF_LT:7"],
+                        "item_count": 1
+                    },
+					{
+                        "name": "Gol and Maia's Citadel",
+						"access_rules": ["SF_GMC:7"],
+                        "item_count": 1
+                    },
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 30,
                         "y": 90,
 						"size": 10
                     },
