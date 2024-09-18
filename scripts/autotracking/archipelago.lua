@@ -127,8 +127,28 @@ function onItem(index, item_id, item_name, player_number)
     local is_local = player_number == Archipelago.PlayerNumber
 	
 	local OrbCheck = string.sub(item_name, 1, 6)
+    local OrbCheck2 = string.sub(item_name, 3, 8)
+    local OrbCheck3 = string.sub(item_name, 4, 9)
+    local OrbCheck4 = string.sub(item_name, 5, 10)
+    local OrbCheck5 = string.sub(item_name, 6, 11)
 
 	if OrbCheck == "Bundle" or OrbCheck == "Precur" then
+		local BundleSize = Tracker:FindObjectForCode('BundleSize').AcquiredCount
+		Tracker:FindObjectForCode('Orb').AcquiredCount = Tracker:FindObjectForCode('Orb').AcquiredCount + BundleSize
+	end
+    if OrbCheck2 == "Precur" then
+		local BundleSize = Tracker:FindObjectForCode('BundleSize').AcquiredCount
+		Tracker:FindObjectForCode('Orb').AcquiredCount = Tracker:FindObjectForCode('Orb').AcquiredCount + BundleSize
+	end
+    if OrbCheck3 == "Precur" then
+		local BundleSize = Tracker:FindObjectForCode('BundleSize').AcquiredCount
+		Tracker:FindObjectForCode('Orb').AcquiredCount = Tracker:FindObjectForCode('Orb').AcquiredCount + BundleSize
+	end
+    if OrbCheck4 == "Precur" then
+		local BundleSize = Tracker:FindObjectForCode('BundleSize').AcquiredCount
+		Tracker:FindObjectForCode('Orb').AcquiredCount = Tracker:FindObjectForCode('Orb').AcquiredCount + BundleSize
+	end
+    if OrbCheck5 == "Precur" then
 		local BundleSize = Tracker:FindObjectForCode('BundleSize').AcquiredCount
 		Tracker:FindObjectForCode('Orb').AcquiredCount = Tracker:FindObjectForCode('Orb').AcquiredCount + BundleSize
 	end

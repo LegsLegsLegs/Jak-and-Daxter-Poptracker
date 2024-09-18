@@ -1110,7 +1110,7 @@
         "children": [
             {
                 "name": "Dark Eco Silo",
-				"access_rules": ["FreedGreen,CanFight,PowerCell: 100","FreedGreen,$no_rando,PowerCell: 100"],
+				"access_rules": ["FreedGreen,CanFight","FreedGreen,$no_rando"],
                 "sections": [
 					{
                         "name": "Defeat Gol and Maia",
