@@ -166,12 +166,12 @@
                     },
 					{
                         "name": "Scout Fly (Under Wood Pillars)",
-						"access_rules": ["BlueSwitch,JumpDive","BlueSwitch,Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["BlueSwitch","JumpDive","Crouch,CrouchUppercut","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Sentinel)",
-						"access_rules": ["BlueSwitch,JumpDive","BlueSwitch,Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["BlueSwitch","JumpDive","Crouch,CrouchUppercut","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -181,7 +181,7 @@
                     },
 					{
                         "name": "Scout Fly (Overlooking Blue Eco Vent)",
-						"access_rules": ["BlueSwitch,$no_rando","BlueSwitch,DoubleJump,Crouch,CrouchUppercut","BlueSwitch,DoubleJump,Punch,PunchUppercut,JumpDive","$no_rando"],
+						"access_rules": ["BlueSwitch","DoubleJump,Crouch,CrouchUppercut","DoubleJump,Punch,PunchUppercut,JumpDive","$no_rando"],
                         "item_count": 1
                     },
                 ],
