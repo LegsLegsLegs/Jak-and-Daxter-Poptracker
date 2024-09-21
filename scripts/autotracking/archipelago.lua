@@ -74,7 +74,7 @@ function onClear(slot_data)
 		Tracker:FindObjectForCode('MoveRando').Active = slot_data["enable_move_randomizer"]
 		if slot_data["enable_move_randomizer"] then
 			Tracker:AddLayouts("layouts/moves.json")
-		end
+        end
 	end
 	if slot_data["citizen_orb_trade_amount"] then
 		Tracker:FindObjectForCode('Citizen').AcquiredCount = slot_data["citizen_orb_trade_amount"]
@@ -97,11 +97,38 @@ function onClear(slot_data)
 	
 	if slot_data["enable_orbsanity"] then
 		local Mode = slot_data["enable_orbsanity"]
+        Tracker:FindObjectForCode('Orbsanity_Mode').CurrentStage = Mode + 1
 		if Mode == 1 then
 			Tracker:FindObjectForCode('BundleSize').AcquiredCount = slot_data["level_orbsanity_bundle_size"]
+            local sections = {
+                "@Start Area - Geyser Rock and Sandover Region/Geyser Rock/Orb Bundle",
+                "@Start Area - Geyser Rock and Sandover Region/Sandover Village/Orb Bundle",
+                "@Start Area - Geyser Rock and Sandover Region/Sentinel Beach/Orb Bundle",
+                "@Start Area - Geyser Rock and Sandover Region/Forbidden Jungle/Orb Bundle",
+                "@Misty Island/Misty Island/Orb Bundle",
+                "@Fire Canyon/Fire Canyon/Orb Bundle",
+                "@Secondary Area - Rock Village Region/Rock Village/Orb Bundle",
+                "@Secondary Area - Rock Village Region/Lost Precursor City/Orb Bundle",
+                "@Secondary Area - Rock Village Region/Boggy Swamp/Orb Bundle",
+                "@Secondary Area - Rock Village Region/Precursor Basin/Orb Bundle",
+                "@Mountain Pass/Mountain Pass/Orb Bundle",
+                "@Tertiary Area - Volcanic Crater Region/Volcanic Crater/Orb Bundle",
+                "@Tertiary Area - Volcanic Crater Region/Spider Cave/Orb Bundle",
+                "@Tertiary Area - Volcanic Crater Region/Snowy Mountain/Orb Bundle",
+                "@Lava Tube/Lava Tube/Orb Bundle",
+                "@Gol and Maia's Citadel/Gol and Maia's Citadel/Orb Bundle",
+            }
+            for _,section in ipairs(sections) do
+                local LevelOrbs = Tracker:FindObjectForCode(section)
+                LevelOrbs.AvailableChestCount = LevelOrbs.AvailableChestCount / Tracker:FindObjectForCode('BundleSize').AcquiredCount
+            end
 		elseif Mode == 2 then
-			Tracker:FindObjectForCode('BundleSize').AcquiredCount = slot_data["global_orbsanity_bundle_size"]
+			Tracker:FindObjectForCode('BundleSize').AcquiredCount = slot_data["global_orbsanity_bundle_size"]     
+            local GlobalOrbs = Tracker:FindObjectForCode('@Global Precursor Orb Bundles/Global Precursor Orb Bundles/Orb Bundle')
+            GlobalOrbs.AvailableChestCount = GlobalOrbs.AvailableChestCount / Tracker:FindObjectForCode('BundleSize').AcquiredCount
 		end
+
+
 	end
 
     LOCAL_ITEMS = {}

@@ -28,13 +28,13 @@
                                 "Elevator","FlutFlut","FortGate",
                             ],
 							[
-                                "Boat","Pontoons","Gondola",   
+                                "Boat","Pontoons","Gondola",
                             ],
 							[
                                 "FreedBlue","FreedRed","FreedYellow","FreedGreen",      
                             ],
 							[
-                                "FC_Cells","MP_Cells","LT_Cells","Goal","MoveRando",
+                                "FC_Cells","MP_Cells","LT_Cells","Goal",
                             ],
                         ]
                     },

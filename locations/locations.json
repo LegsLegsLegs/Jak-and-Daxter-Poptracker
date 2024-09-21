@@ -17,12 +17,17 @@
                     },
 					{
                         "name": "Power Cell (Climb up the Cliff)",
-						"access_rules": ["DoubleJump","Crouch,CrouchJump","Crouch,CrouchUppercut","$no_rando"],						
+						"access_rules": ["[DoubleJump]","[Crouch,CrouchJump]","[Crouch,CrouchUppercut]","$no_rando"],						
                         "item_count": 1
                     },
                     {
                         "name": "Scout Fly",
                         "item_count": 7
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "item_count": 50
                     }
                 ],
                 "map_locations": [
@@ -80,7 +85,11 @@
                     },
 					{
                         "name": "Scout Fly (Overlooking Farmer's House)",
-						"access_rules": ["DoubleJump,JumpDive","Crouch,CrouchJump,JumpDive","Crouch,CrouchUppercut,JumpKick,JumpDive","DoubleJump,Crouch,CrouchUppercut","Crouch,CrouchJump,Crouch,CrouchUppercut","Crouch,CrouchUppercut,JumpKick,Crouch,CrouchUppercut","Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": [
+                            "[DoubleJump],JumpDive","[DoubleJump],Crouch,CrouchUppercut",
+                            "[Crouch,CrouchJump],JumpDive","[Crouch,CrouchJump],CrouchUppercut",
+                            "Crouch,CrouchUppercut,[JumpKick]",
+                            "$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -93,6 +102,11 @@
 						"access_rules": ["DoubleJump","Crouch,CrouchJump","JumpDive","Crouch,CrouchUppercut","$no_rando"],
                         "item_count": 1
                     },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "item_count": 50
+                    }
                 ],
                 "map_locations": [
                     {
@@ -137,7 +151,7 @@
                     },
 					{
                         "name": "Power Cell (Launch up to the Cannon Tower)",
-						"access_rules": ["BlueSwitch,CanFight","BlueSwitch,$no_rando"],
+						"access_rules": ["[BlueSwitch],CanFight","[BlueSwitch],$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -166,12 +180,12 @@
                     },
 					{
                         "name": "Scout Fly (Under Wood Pillars)",
-						"access_rules": ["BlueSwitch","JumpDive","Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["[BlueSwitch]","[JumpDive]","[Crouch,CrouchUppercut]","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Sentinel)",
-						"access_rules": ["BlueSwitch","JumpDive","Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["[BlueSwitch]","[JumpDive]","[Crouch,CrouchUppercut]","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -181,9 +195,14 @@
                     },
 					{
                         "name": "Scout Fly (Overlooking Blue Eco Vent)",
-						"access_rules": ["BlueSwitch","DoubleJump,Crouch,CrouchUppercut","DoubleJump,Punch,PunchUppercut,JumpDive","$no_rando"],
+						"access_rules": ["[BlueSwitch]","[DoubleJump,Crouch,CrouchUppercut]","[DoubleJump,Punch,PunchUppercut,JumpDive]","$no_rando"],
                         "item_count": 1
                     },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "item_count": 150
+                    }
                 ],
                 "map_locations": [
                     {
@@ -277,6 +296,11 @@
 						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],
                         "item_count": 1
                     },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "item_count": 150
+                    }
                 ],
                 "map_locations": [
                     {
@@ -366,6 +390,11 @@
                         "name": "Scout Fly (Near Arena Door)",
 						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "item_count": 150
                     }
                 ],
                 "map_locations": [
@@ -395,6 +424,11 @@
                     {
                         "name": "Scout Fly",
                         "item_count": 7
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "item_count": 50
                     }
                 ],
                 "map_locations": [
@@ -478,6 +512,11 @@
 						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],
                         "item_count": 1
                     },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "item_count": 50
+                    }
                 ],
                 "map_locations": [
                     {
@@ -523,6 +562,11 @@
                     {
                         "name": "Scout Fly",
                         "item_count": 7
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "item_count": 200
                     }
                 ],
                 "map_locations": [
@@ -541,7 +585,7 @@
                 "sections": [
 					{
                         "name": "Power Cell (Ride the Flut Flut)",
-						"access_rules": ["FlutFlut"],
+						"access_rules": ["[FlutFlut]"],
                         "item_count": 1
                     },
 					{
@@ -590,18 +634,23 @@
                     },
 					{
                         "name": "Scout Fly (Overlooking Flut Flut)",
-						"access_rules": ["FlutFlut"],
+						"access_rules": ["[FlutFlut]"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (on Flut Flut Platforms)",
-						"access_rules": ["FlutFlut"],
+						"access_rules": ["[FlutFlut]"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (in Field of Boxes)",
                         "item_count": 1
                     },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "item_count": 200
+                    }
                 ],
                 "map_locations": [
                     {
@@ -692,6 +741,11 @@
                         "name": "Scout Fly (Across Steam Vents)",
                         "item_count": 1
                     },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "item_count": 200
+                    }
                 ],
                 "map_locations": [
                     {
@@ -710,7 +764,7 @@
         "children": [
             {
                 "name": "Klaww",
-				"access_rules": ["$cell_gate|2,DoubleJump","$cell_gate|2,Crouch,CrouchJump","$cell_gate|2,Crouch,CrouchUppercut,JumpKick","$cell_gate|2,$no_rando"],
+				"access_rules": ["$cell_gate|2,DoubleJump","$cell_gate|2,Crouch,CrouchJump","$cell_gate|2,Crouch,CrouchUppercut,JumpKick","[$cell_gate|2],$no_rando","[$cell_gate|2],Punch,PunchUppercut,JumpKick,DoubleJump"],
                 "sections": [
                     {
                         "name": "Power Cell (Defeat Klaww)",
@@ -748,6 +802,11 @@
                     {
                         "name": "Scout Fly",
                         "item_count": 7
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "item_count": 50
                     }
                 ],
                 "map_locations": [
@@ -788,6 +847,11 @@
                         "name": "Scout Fly",
 						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],
                         "item_count": 7
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "item_count": 50
                     }
                 ],
                 "map_locations": [
@@ -814,7 +878,7 @@
                     },
 					{
                         "name": "Power Cell (Explore the Dark Cave)",
-						"access_rules": ["CanFight,DoubleJump","CanFight,Crouch,CrouchJump","$no_rando"],						
+						"access_rules": ["CanFight,[DoubleJump]","CanFight,[Crouch,CrouchJump]","$no_rando"],						
                         "item_count": 1
                     },
 					{
@@ -864,6 +928,11 @@
 						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],						
                         "item_count": 1
                     },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "item_count": 200
+                    }
                 ],
                 "map_locations": [
                     {
@@ -968,6 +1037,11 @@
 						"access_rules": ["Roll,RollJump,FortGate,DoubleJump","DoubleJump,JumpKick,FortGate","Roll,RollJump,FortGate,Crouch,CrouchJump","$no_rando,FortGate"],
                         "item_count": 1
                     },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "item_count": 200
+                    }
                 ],
                 "map_locations": [
                     {
@@ -995,6 +1069,11 @@
                     {
                         "name": "Scout Fly",
                         "item_count": 7
+                    },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "item_count": 50
                     }
                 ],
                 "map_locations": [
@@ -1092,6 +1171,11 @@
 						"access_rules": ["SagesFreed: 3,JumpDive,Crouch,CrouchUppercut","SagesFreed: 3,JumpDive,Crouch,CrouchUppercut","SagesFreed:3,$no_rando"],
                         "item_count": 1
                     },
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Level",
+                        "item_count": 200
+                    }
                 ],
                 "map_locations": [
                     {
@@ -1130,7 +1214,7 @@
 	},
 //Scout Flies
 	{
-        "name": "{Power Cell (7 Scout Flies)",
+        "name": "Power Cell (7 Scout Flies)",
         "children": [
             {
                 "name": "Power Cell (7 Scout Flies)",
@@ -1227,4 +1311,28 @@
             },
 		]
 	},
+//Global Orbs
+    {
+        "name": "Global Precursor Orb Bundles",
+        "children": [
+            {
+                "name": "Global Precursor Orb Bundles",
+                "sections": [
+                    {
+                        "name": "Orb Bundle",
+                        "visibility_rules": "Orbsanity_Global",
+                        "item_count": 2000
+                    },
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 30,
+                        "y": 180,
+                        "size": 10
+                    },
+                ]
+            },
+        ]
+    },
 ]			

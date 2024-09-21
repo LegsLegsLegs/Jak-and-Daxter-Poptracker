@@ -362,11 +362,37 @@
 	{
         "name": "Orb Bundle",
         "type": "consumable",
+        "img": "images/items/Dark Eco Plant.png",
         "max_quantity": 2000,
         "initial_quantity": 0,
         "overlay_background": "#000000",
         "overlay_font_size": 8,
         "codes": "BundleSize"
+    },
+    {
+        "name": "Orbsanity",
+        "type": "progressive",
+        "codes": "Orbsanity_Mode",
+		"initial_stage_idx": 0,
+		"stages": [ {
+			"img": "images/items/Dark Eco Plant.png",
+			"codes": "Orbsanity_Mode,Orbsanity_Off",
+			"inherit_codes": false,
+			"name": "Orbsanity Off" // since 0.21.1
+			},
+			{
+			"img": "images/items/Fire Canyon.png",
+			"codes": "Orbsanity_Mode,Orbsanity_Level",
+			"inherit_codes": false,
+			"name": "Orbsanity per Level" // since 0.21.1
+			},
+			{
+			"img": "images/items/Klaww.png",
+			"codes": "Orbsanity_Mode,Orbsanity_Global",
+			"inherit_codes": false,
+			"name": "Orbsanity Global" // since 0.21.1
+			},
+		]
     },
 //Cell Gates
 	{
