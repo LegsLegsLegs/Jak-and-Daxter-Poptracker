@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.2.0",
+			"download_url": "https://github.com/LegsLegsLegs/Jak-and-Daxter-Poptracker/archive/refs/tags/1.2.0.zip",
+			"sha256": "C2D7D0D8B7987F2702B87BBFF2DFC1ECBCA1F2B1E02FBF1AEEFB62E497C700B0",
+			"changelog": ["Added Orb Bundles (no logic), added glitch logic, bug fixes"]
+		},
+		{
 			"package_version": "1.1.0",
 			"download_url": "https://github.com/LegsLegsLegs/Jak-and-Daxter-Poptracker/archive/refs/tags/1.1.0.zip",
 			"sha256": "3C7403E9E37C64560D07013935A27D948787C0CB8387892C5546BF98BB9CDE8B",
