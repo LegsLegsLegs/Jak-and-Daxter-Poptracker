@@ -36,7 +36,7 @@
                         "x": 132,
                         "y": 732,
 						"size": 10
-                    },
+                    }
                 ]
             },
 //Sandover Village
@@ -85,21 +85,17 @@
                     },
 					{
                         "name": "Scout Fly (Overlooking Farmer's House)",
-						"access_rules": [
-                            "[DoubleJump],JumpDive","[DoubleJump],Crouch,CrouchUppercut",
-                            "[Crouch,CrouchJump],JumpDive","[Crouch,CrouchJump],CrouchUppercut",
-                            "Crouch,CrouchUppercut,[JumpKick]",
-                            "$no_rando"],
+						"access_rules": ["[DoubleJump],$flybox","[Crouch,CrouchJump],$flybox","Crouch,CrouchUppercut,[JumpKick]","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Near Oracle)",
-						"access_rules": ["DoubleJump,JumpKick,JumpDive","DoubleJump,JumpKick,Crouch,CrouchUppercut","Roll,RollJump,JumpDive","Roll,RollJump,Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["DoubleJump,JumpKick,$flybox","Roll,RollJump,$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Farmer's House)",
-						"access_rules": ["DoubleJump","Crouch,CrouchJump","JumpDive","Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["$flybox","$no_rando"],
                         "item_count": 1
                     },
                     {
@@ -114,7 +110,7 @@
                         "x": 24,
                         "y": 590,
 						"size": 10
-                    },
+                    }
 				]
 			},
 //Sentinel Beach
@@ -180,22 +176,22 @@
                     },
 					{
                         "name": "Scout Fly (Under Wood Pillars)",
-						"access_rules": ["[BlueSwitch]","[JumpDive]","[Crouch,CrouchUppercut]","$no_rando"],
+						"access_rules": ["[BlueSwitch]","[$flybox]","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Sentinel)",
-						"access_rules": ["[BlueSwitch]","[JumpDive]","[Crouch,CrouchUppercut]","$no_rando"],
+						"access_rules": ["[BlueSwitch]","[$flybox]","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Overlooking Green Eco Vents)",
-						"access_rules": ["DoubleJump,JumpDive","Crouch,CrouchJump,JumpDive","DoubleJump,Crouch,CrouchUppercut","Crouch,CrouchJump,Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["DoubleJump,$flybox","Crouch,CrouchJump,$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Overlooking Blue Eco Vent)",
-						"access_rules": ["[BlueSwitch]","[DoubleJump,Crouch,CrouchUppercut]","[DoubleJump,Punch,PunchUppercut,JumpDive]","$no_rando"],
+						"access_rules": ["[BlueSwitch]","[DoubleJump,Crouch,CrouchUppercut,$flybox]","[DoubleJump,Punch,PunchUppercut,$flybox]","$no_rando"],
                         "item_count": 1
                     },
                     {
@@ -210,7 +206,7 @@
                         "x": 78,
                         "y": 485,
 						"size": 10
-                    },
+                    }
                 ]
             },
 //Forbidden Jungle
@@ -293,7 +289,7 @@
                     },
 					{
                         "name": "Scout Fly (Spiral of Stumps)",
-						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["$flybox","$no_rando"],
                         "item_count": 1
                     },
                     {
@@ -308,9 +304,9 @@
                         "x": 262,
                         "y": 695,
 						"size": 10
-                    },
+                    }
                 ]
-            },  
+            } 
 		]			
     },
 //Misty Island
@@ -359,7 +355,7 @@
                     },
                     {
                         "name": "Scout Fly (Overlooking Entrance)",
-						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -368,7 +364,7 @@
                     },
 					{
                         "name": "Scout Fly (Ship)",
-						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -378,17 +374,17 @@
                     },
 					{
                         "name": "Scout Fly (Barrel Ramps)",
-						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Ledge Near Arena Entrance)",
-						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Near Arena Door)",
-						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["$flybox","$no_rando"],
                         "item_count": 1
                     },
                     {
@@ -403,9 +399,9 @@
                         "x": 290,
                         "y": 808,
 						"size": 10
-                    },
+                    }
                 ]
-            },
+            }
 
         ]
     },
@@ -437,9 +433,9 @@
                         "x": 335,
                         "y": 630,
 						"size": 10
-                    },
+                    }
                 ]
-            },
+            }
 		]
 	},
 //Secondary Area
@@ -494,22 +490,22 @@
                     },
 					{
                         "name": "Scout Fly (Behind Sage's Hut)",
-						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Near Waterfall)",
-						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Dock)",
-						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Pontoon Bridge)",
-						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["$flybox","$no_rando"],
                         "item_count": 1
                     },
                     {
@@ -524,7 +520,7 @@
                         "x": 395,
                         "y": 585,
 						"size": 10
-                    },
+                    }
                 ]
             },
 //Precursor Basin
@@ -575,7 +571,7 @@
                         "x": 130,
                         "y": 342,
 						"size": 10
-                    },
+                    }
                 ]
             },
 //Boggy Swamp
@@ -658,7 +654,7 @@
                         "x": 460,
                         "y": 484,
 						"size": 10
-                    },
+                    }
 				]
 			},
 //Lost Precursor City
@@ -710,12 +706,12 @@
                     },
 					{
                         "name": "Scout Fly (First Room)",
-						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Before Second Room)",
-						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -730,7 +726,7 @@
                     },
 					{
                         "name": "Scout Fly (Second Room, on Path to Cell)",
-						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -753,9 +749,9 @@
                         "x": 495,
                         "y": 560,
 						"size": 10
-                    },
+                    }
                 ]
-            },
+            }
 		]			
     },
 //Klaww
@@ -769,7 +765,7 @@
                     {
                         "name": "Power Cell (Defeat Klaww)",
                         "item_count": 1
-                    },
+                    }
                 ],
                 "map_locations": [
                     {
@@ -777,9 +773,9 @@
                         "x": 295,
                         "y": 340,
 						"size": 10
-                    },
+                    }
                 ]
-            },
+            }
 		]
 	},
 //Mountain Pass
@@ -815,9 +811,9 @@
                         "x": 335,
                         "y": 216,
 						"size": 10
-                    },
+                    }
                 ]
-            },
+            }
 		]
 	},
 //Tertiary Area
@@ -845,7 +841,7 @@
                     },
                     {
                         "name": "Scout Fly",
-						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["$flybox","$no_rando"],
                         "item_count": 7
                     },
                     {
@@ -860,7 +856,7 @@
                         "x": 595,
                         "y": 490,
 						"size": 10
-                    },
+                    }
                 ]
             },
 //Spider Cave
@@ -925,7 +921,7 @@
                     },
 					{
                         "name": "Scout Fly (Robot Cave, at Top Level)",
-						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],						
+						"access_rules": ["$flybox","$no_rando"],						
                         "item_count": 1
                     },
                     {
@@ -940,7 +936,7 @@
                         "x": 642,
                         "y": 440,
 						"size": 10
-                    },
+                    }
                 ]
             },
 //Snowy Mountain
@@ -950,7 +946,7 @@
                 "sections": [
 					{
 						"name": "Snowy Mountain Gondola",
-						"access_rules": ["Gondola"],
+						"access_rules": ["Gondola"]
 					},
 					{
                         "name": "Power Cell (Find the Yellow Vent Switch)",
@@ -1004,27 +1000,27 @@
                     },
                     {
                         "name": "Scout Fly (Near Entrance)",
-						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Near Frozen Box)",
-						"access_rules": ["Roll,RollJump,JumpDive","DoubleJump,JumpKick,JumpDive","Roll,RollJump,Crouch,CrouchUppercut","DoubleJump,JumpKick,Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["Roll,RollJump,$flybox","DoubleJump,JumpKick,$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Cliff Near Flut Flut)",
-						"access_rules": ["Roll,RollJump,JumpDive","DoubleJump,JumpKick,JumpDive","Roll,RollJump,Crouch,CrouchUppercut","DoubleJump,JumpKick,Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["Roll,RollJump,$flybox","DoubleJump,JumpKick,$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Near Yellow Eco Switch)",
-						"access_rules": ["Roll,RollJump,JumpDive","DoubleJump,JumpKick,JumpDive","Roll,RollJump,Crouch,CrouchUppercut","DoubleJump,JumpKick,Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["Roll,RollJump,$flybox","DoubleJump,JumpKick,$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Under Bridge to Fort)",
-						"access_rules": ["Roll,RollJump,JumpDive","DoubleJump,JumpKick,JumpDive","Roll,RollJump,Crouch,CrouchUppercut","DoubleJump,JumpKick,Crouch,CrouchUppercut","$no_rando"],
+						"access_rules": ["Roll,RollJump,$flybox","DoubleJump,JumpKick,$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -1049,9 +1045,9 @@
                         "x": 420,
                         "y": 190,
 						"size": 10
-                    },
+                    }
 				]
-			},
+			}
         ]
     },
 //Lava Tube
@@ -1082,9 +1078,9 @@
                         "x": 660,
                         "y": 342,
 						"size": 10
-                    },
+                    }
                 ]
-            },
+            }
 		]
 	},
 //Gol and Maia's Citadel
@@ -1138,7 +1134,7 @@
                     },
                     {
                         "name": "Scout Fly (Entrance)",
-						"access_rules": ["JumpDive","Crouch,CrouchUppercut","$no_rando"],						
+						"access_rules": ["$flybox","$no_rando"],						
                         "item_count": 1
                     },
 					{
@@ -1153,7 +1149,7 @@
                     },
 					{
                         "name": "Scout Fly (Main Room, Left of Robot)",
-						"access_rules": ["JumpDive,DoubleJump","Crouch,CrouchUppercut,DoubleJump","JumpDive,JumpKick","Crouch,CrouchUppercut,JumpKick","JumpDive,Punch,PunchUppercut","Crouch,CrouchUppercut,Punch,PunchUppercut","$no_rando"],
+						"access_rules": ["DoubleJump,$flybox","JumpKick,$flybox","Punch,PunchUppercut,$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -1168,7 +1164,7 @@
                     },
 					{
                         "name": "Scout Fly (Top of Rotating Tower)",
-						"access_rules": ["SagesFreed: 3,JumpDive,Crouch,CrouchUppercut","SagesFreed: 3,JumpDive,Crouch,CrouchUppercut","SagesFreed:3,$no_rando"],
+						"access_rules": ["SagesFreed: 3,JumpDive,Crouch,CrouchUppercut","SagesFreed:3,$no_rando"],
                         "item_count": 1
                     },
                     {
@@ -1183,9 +1179,9 @@
                         "x": 572,
                         "y": 44,
 						"size": 10
-                    },
+                    }
                 ]
-            },
+            }
 		]
 	},
 //Dark Eco Silo
@@ -1199,7 +1195,7 @@
 					{
                         "name": "Defeat Gol and Maia",
                         "item_count": 1
-                    },
+                    }
                 ],
                 "map_locations": [
                     {
@@ -1207,9 +1203,9 @@
                         "x": 630,
                         "y": 90,
 						"size": 10
-                    },
+                    }
                 ]
-            },
+            }
 		]
 	},
 //Scout Flies
@@ -1298,7 +1294,7 @@
                         "name": "Gol and Maia's Citadel",
 						"access_rules": ["SF_GMC:7"],
                         "item_count": 1
-                    },
+                    }
                 ],
                 "map_locations": [
                     {
@@ -1306,9 +1302,9 @@
                         "x": 30,
                         "y": 90,
 						"size": 10
-                    },
+                    }
                 ]
-            },
+            }
 		]
 	},
 //Global Orbs
@@ -1322,7 +1318,7 @@
                         "name": "Orb Bundle",
                         "visibility_rules": "Orbsanity_Global",
                         "item_count": 2000
-                    },
+                    }
                 ],
                 "map_locations": [
                     {
@@ -1330,9 +1326,9 @@
                         "x": 30,
                         "y": 180,
                         "size": 10
-                    },
+                    }
                 ]
-            },
+            }
         ]
-    },
+    }
 ]			

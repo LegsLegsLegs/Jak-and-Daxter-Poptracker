@@ -56,6 +56,10 @@ function orb_trades()
 	return false
 end
 
+function flybox()
+	return has("JumpDive") or (has("Crouch") and has("CrouchUppercut"))
+end
+
 
 function no_rando()
 	local MoveRando = Tracker:FindObjectForCode("MoveRando").Active
