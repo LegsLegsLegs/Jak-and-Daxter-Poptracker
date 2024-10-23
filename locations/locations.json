@@ -17,7 +17,7 @@
                     },
 					{
                         "name": "Power Cell (Climb up the Cliff)",
-						"access_rules": ["[DoubleJump]","[Crouch,CrouchJump]","[Crouch,CrouchUppercut]","$no_rando"],						
+						"access_rules": ["[$over_and_uppies]","$no_rando"],						
                         "item_count": 1
                     },
                     {
@@ -59,12 +59,12 @@
                     },
 					{
                         "name": "Power Cell (120 Orbs to the Oracle)",
-						"access_rules": ["$orb_trades,DoubleJump,JumpKick","$orb_trades,Roll,RollJump","$orb_trades,$no_rando"],
+						"access_rules": ["$orb_trades,$long_jumps","$orb_trades,$no_rando"],
                         "item_count": 2
                     },
 					{
                         "name": "Orb Cache in Sandover Village (by Farmer's House)",
-						"access_rules": ["DoubleJump","Crouch,CrouchJump","Crouch,CrouchUppercut,JumpKick","$no_rando"],						
+						"access_rules": ["$over_and_uppies","$no_rando"],						
                         "item_count": 1
                     },
                     {
@@ -85,12 +85,12 @@
                     },
 					{
                         "name": "Scout Fly (Overlooking Farmer's House)",
-						"access_rules": ["[DoubleJump],$flybox","[Crouch,CrouchJump],$flybox","Crouch,CrouchUppercut,[JumpKick]","$no_rando"],
+						"access_rules": ["[$over_and_uppies],$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Near Oracle)",
-						"access_rules": ["DoubleJump,JumpKick,$flybox","Roll,RollJump,$flybox","$no_rando"],
+						"access_rules": ["$long_jumps,$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -220,12 +220,12 @@
                     },
 					{
                         "name": "Power Cell (Get to the Top of the Temple)",
-						"access_rules": ["DoubleJump","CrouchJump","JumpKick","$no_rando"],
+						"access_rules": ["$little_uppies","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Jungle Elevator",
-						"access_rules": ["DoubleJump","CrouchJump","JumpKick","$no_rando"],
+						"access_rules": ["$little_uppies","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -289,7 +289,7 @@
                     },
 					{
                         "name": "Scout Fly (Spiral of Stumps)",
-						"access_rules": ["$flybox","$no_rando"],
+						"access_rules": ["[$flybox]","[$no_rando]"],
                         "item_count": 1
                     },
                     {
@@ -345,7 +345,7 @@
                     },
 					{
                         "name": "Power Cell (Blue Eco Power Cell)",
-						"access_rules": ["DoubleJump","CrouchJump","JumpKick","JumpDive","$no_rando"],
+						"access_rules": ["$little_uppies","JumpDive","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -590,7 +590,7 @@
                     },
 					{
                         "name": "Power Cell (Break the Zeppelin Tether 2)",
-						"access_rules": ["DoubleJump","Crouch,CrouchJump","Crouch,CrouchUppercut","Punch,PunchUppercut","$no_rando"],
+						"access_rules": ["$any_uppies","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -599,7 +599,7 @@
                     },
 					{
                         "name": "Power Cell (Break the Zeppelin Tether 4)",
-						"access_rules": ["DoubleJump","Crouch,CrouchJump","Crouch,CrouchUppercut","Punch,PunchUppercut","$no_rando"],
+						"access_rules": ["$any_uppies","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -625,7 +625,7 @@
                     },
 					{
                         "name": "Scout Fly (Across Black Swamp)",
-						"access_rules": ["DoubleJump","JumpKick","Punch,PunchUppercut","$no_rando"],
+						"access_rules": ["$some_uppies","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -663,7 +663,7 @@
                 "sections": [
 					{
                         "name": "Power Cell (Raise the Chamber)",
-						"access_rules": ["JumpDive,DoubleJump","JumpDive,JumpKick","JumpDive,Punch,PunchUppercut","$no_rando"],
+						"access_rules": ["JumpDive,$some_uppies","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -673,7 +673,7 @@
                     },
 					{
                         "name": "Power Cell (Reach the Bottom of the City)",
-						"access_rules": ["DoubleJump","JumpKick","Punch,PunchUppercut","$no_rando"],
+						"access_rules": ["$some_uppies","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -760,7 +760,7 @@
         "children": [
             {
                 "name": "Klaww",
-				"access_rules": ["$cell_gate|2,DoubleJump","$cell_gate|2,Crouch,CrouchJump","$cell_gate|2,Crouch,CrouchUppercut,JumpKick","[$cell_gate|2],$no_rando","[$cell_gate|2],Punch,PunchUppercut,JumpKick,DoubleJump"],
+				"access_rules": ["$cell_gate|2,$over_and_uppies","[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$klawwpunch"],
                 "sections": [
                     {
                         "name": "Power Cell (Defeat Klaww)",
@@ -784,7 +784,7 @@
         "children": [
             {
                 "name": "Mountain Pass",
-				"access_rules": ["$cell_gate|2"],
+				"access_rules": ["$cell_gate|2,$over_and_uppies","[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$klawwpunch"],
                 "sections": [
 					{
                         "name": "Power Cell (Reach the End of Mountain Pass)",
@@ -819,7 +819,7 @@
 //Tertiary Area
 	{
         "name": "Tertiary Area - Volcanic Crater Region",
-        "access_rules": ["$cell_gate|2"],
+        "access_rules": ["$cell_gate|2,$over_and_uppies","[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$klawwpunch"],
         "children": [
 //Volcanic Crater
 			{
@@ -950,22 +950,22 @@
 					},
 					{
                         "name": "Power Cell (Find the Yellow Vent Switch)",
-						"access_rules": ["Roll,RollJump,DoubleJump","DoubleJump,JumpKick","Roll,RollJump,Crouch,CrouchJump","Roll,RollJump,JumpDive","Roll,RollJump,Crouch,CrouchUppercut","Roll,RollJump,Punch,PunchUppercut","$no_rando"],
+						"access_rules": ["$long_jumps","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Yellow Eco Switch",
-						"access_rules": ["Roll,RollJump,DoubleJump","DoubleJump,JumpKick","Roll,RollJump,Crouch,CrouchJump","Roll,RollJump,JumpDive","Roll,RollJump,Crouch,CrouchUppercut","Roll,RollJump,Punch,PunchUppercut","$no_rando"],
+						"access_rules": ["$long_jumps","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Power Cell (Stop the 3 Lurker Glacier Troops)",
-						"access_rules": ["Roll,RollJump,CanFight","DoubleJump,JumpKick,CanFight","$no_rando"],
+						"access_rules": ["$long_jumps,CanFight","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Power Cell (Deactivate the Precursor Blockers)",
-						"access_rules": ["Roll,RollJump,CanFight,DoubleJump","DoubleJump,JumpKick,CanFight","Roll,RollJump,CanFight,JumpDive","Roll,RollJump,CanFight,Crouch,CrouchJump","Roll,RollJump,CanFight,CrouchUppercut","Roll,RollJump,CanFight,Punch,PunchUppercut","$no_rando"],
+						"access_rules": ["$long_jumps,$any_uppies","$long_jumps,JumpDive","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -975,27 +975,27 @@
                     },
 					{
                         "name": "Power Cell (Get Through the Lurker Fort)",
-						"access_rules": ["Roll,RollJump,DoubleJump","DoubleJump,JumpKick,DoubleJump","Roll,RollJump,Punch,PunchUppercut","DoubleJump,JumpKick,Punch,PunchUppercut","$no_rando"],
+						"access_rules": ["$long_jumps,DoubleJump","$long_jumps,Punch,PunchUppercut","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Power Cell (Open the Lurker Fort Gate)",
-						"access_rules": ["Roll,RollJump,FlutFlut","DoubleJump,JumpKick,FlutFlut","$no_rando,FlutFlut"],
+						"access_rules": ["$long_jumps,FlutFlut","$no_rando,FlutFlut"],
                         "item_count": 1
                     },
 					{
                         "name": "Open the Lurker Fort Gate",
-						"access_rules": ["Roll,RollJump,FlutFlut","DoubleJump,JumpKick,FlutFlut","$no_rando,FlutFlut"],
+						"access_rules": ["$long_jumps,FlutFlut","$no_rando,FlutFlut"],
                         "item_count": 1
                     },
 					{
                         "name": "Power Cell (Survive the Lurker Infested Cave)",
-						"access_rules": ["Roll,RollJump,CanFight,DoubleJump","DoubleJump,JumpKick,CanFight,DoubleJump","Roll,RollJump,CanFight,Crouch,CrouchJump","DoubleJump,JumpKick,CanFight,Crouch,CrouchJump","$no_rando"],
+						"access_rules": ["$long_jumps,CanFight,DoubleJump","$long_jumps,CanFight,Crouch,CrouchJump","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Orb Cache in Snowy Fort",
-						"access_rules": ["Roll,RollJump,FortGate","DoubleJump,JumpKick,FortGate","$no_rando,FortGate"],
+						"access_rules": ["$long_jumps,FortGate","$no_rando,FortGate"],
                         "item_count": 3
                     },
                     {
@@ -1005,32 +1005,32 @@
                     },
 					{
                         "name": "Scout Fly (Near Frozen Box)",
-						"access_rules": ["Roll,RollJump,$flybox","DoubleJump,JumpKick,$flybox","$no_rando"],
+						"access_rules": ["$long_jumps,$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Cliff Near Flut Flut)",
-						"access_rules": ["Roll,RollJump,$flybox","DoubleJump,JumpKick,$flybox","$no_rando"],
+						"access_rules": ["$long_jumps,$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Near Yellow Eco Switch)",
-						"access_rules": ["Roll,RollJump,$flybox","DoubleJump,JumpKick,$flybox","$no_rando"],
+						"access_rules": ["$long_jumps,$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Under Bridge to Fort)",
-						"access_rules": ["Roll,RollJump,$flybox","DoubleJump,JumpKick,$flybox","$no_rando"],
+						"access_rules": ["$long_jumps,$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Top of Fort Tower)",
-						"access_rules": ["Roll,RollJump,FortGate","DoubleJump,JumpKick,FortGate","$no_rando,FortGate"],
+						"access_rules": ["$long_jumps,FortGate","$no_rando,FortGate"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Top of Fort)",
-						"access_rules": ["Roll,RollJump,FortGate,DoubleJump","DoubleJump,JumpKick,FortGate","Roll,RollJump,FortGate,Crouch,CrouchJump","$no_rando,FortGate"],
+						"access_rules": ["$long_jumps,FortGate,DoubleJump","$long_jumps,FortGate,Crouch,CrouchJump","$no_rando,FortGate"],
                         "item_count": 1
                     },
                     {

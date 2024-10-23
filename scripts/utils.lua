@@ -56,12 +56,58 @@ function orb_trades()
 	return false
 end
 
+function punch_for_klaww()
+	return has("Punch") or not has("HasPunchForKlaww")
+end
+
+function little_uppies()
+	return has("DoubleJump") or (has("Crouch") and has("CrouchJump")) or has("JumpKick")
+end
+
+function some_uppies()
+	return has("DoubleJump") or has("JumpKick") or (has("Punch") and has ("PunchUppercut"))
+end
+
+function any_uppies()
+	return has("DoubleJump") or (has("Crouch") and has("CrouchJump")) or (has("Crouch") and has("CrouchUppercut") and has("JumpKick")) or (has("Punch") and has("PunchUppercut"))
+end
+
+function over_and_uppies()
+	return has("DoubleJump") or (has("Crouch") and has("CrouchJump")) or (has("Punch") and has("PunchUppercut") and has("JumpKick"))
+end
+
+function long_jumps()
+	return (has("DoubleJump") and has("JumpKick")) or (has("Roll") and has("RollJump"))
+end
+
 function flybox()
 	return has("JumpDive") or (has("Crouch") and has("CrouchUppercut"))
 end
 
 
 function no_rando()
-	local MoveRando = Tracker:FindObjectForCode("MoveRando").Active
-	return not MoveRando
+	local MoveRando_enabled = Tracker:FindObjectForCode("MoveRando").Active
+	return not MoveRando_enabled
+end
+
+function level_orbs_accessible()
+	local regions = {
+		"@Orbs/GR/Main",
+		"@Orbs/SV/Main",
+		"@Orbs/SV/Cache Cliff"
+	}
+	
+	local orbs = 0
+	for _,area in ipairs(regions) do
+		orbs += Tracker:GetObjectForCode(area).AvailableChestCount
+	end
+	-- do some math with bundle size and return true if orbs accessible >= bundle_size
+end
+
+function global_orbs_accessible()
+	
+end
+
+function test()
+	print(Tracker:FindObjectForCode("@Fire Canyon/Fire Canyon").AccessibilityLevel)
 end

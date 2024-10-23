@@ -9,39 +9,39 @@
 		"h_alignment": "left",
 		"rows": [
 			[
-				"Crouch",   
+				"Crouch"
 			],
 			[
-				"CrouchJump",     
+				"CrouchJump"
 			],
 			[
-				"CrouchUppercut",      
+				"CrouchUppercut"
 			],
 			[
-				"JumpDive",      
+				"JumpDive"
 			],
 			[
-				"DoubleJump",
+				"DoubleJump"
 			],
 			[
-				"Roll",
+				"Roll"
 			],
 			[
-				"RollJump",
+				"RollJump"
 			],
 			[
-				"Punch",     
+				"Punch"
 			],
 			[
-				"PunchUppercut",       
+				"PunchUppercut"
 			],
 			[
-				"Kick",      
+				"Kick"
 			],
 			[
-				"JumpKick",       
-			],
+				"JumpKick"
+			]
 		]
-	},
+	}
 	
 }
