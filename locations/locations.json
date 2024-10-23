@@ -760,7 +760,7 @@
         "children": [
             {
                 "name": "Klaww",
-				"access_rules": ["$cell_gate|2,$over_and_uppies","[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$klawwpunch"],
+				"access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$klawwpunch"],
                 "sections": [
                     {
                         "name": "Power Cell (Defeat Klaww)",
@@ -784,7 +784,7 @@
         "children": [
             {
                 "name": "Mountain Pass",
-				"access_rules": ["$cell_gate|2,$over_and_uppies","[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$klawwpunch"],
+				"access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$klawwpunch"],
                 "sections": [
 					{
                         "name": "Power Cell (Reach the End of Mountain Pass)",
@@ -819,7 +819,7 @@
 //Tertiary Area
 	{
         "name": "Tertiary Area - Volcanic Crater Region",
-        "access_rules": ["$cell_gate|2,$over_and_uppies","[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$klawwpunch"],
+        "access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$klawwpunch"],
         "children": [
 //Volcanic Crater
 			{
