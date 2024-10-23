@@ -99,7 +99,7 @@ function level_orbs_accessible()
 	
 	local orbs = 0
 	for _,area in ipairs(regions) do
-		orbs += Tracker:GetObjectForCode(area).AvailableChestCount
+		orbs = orbs + Tracker:GetObjectForCode(area).AvailableChestCount
 	end
 	-- do some math with bundle size and return true if orbs accessible >= bundle_size
 end
