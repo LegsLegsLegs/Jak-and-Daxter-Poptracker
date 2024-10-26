@@ -243,6 +243,11 @@ function onLocation(location_id, location_name)
         end
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", v[1]))
+    
+    end   
+    if not string.find(location_name, "Bundle") == nil then
+        local obj = Tracker:FindObjectForCode("force_refresh")
+        obj.Active = not obj.Active
     end
 end
 

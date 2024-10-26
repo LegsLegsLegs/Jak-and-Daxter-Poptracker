@@ -1,0 +1,307 @@
+[
+    {
+        "name": "Orbs",
+        "children": [
+//Start Area
+            {
+                "name": "GR",               
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 50
+                    }
+                ]
+            },
+            {
+                "name": "SV",          
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 26
+                    },
+                    {
+                        "name": "Cache Cliff",
+                        "access_rules": ["$over_and_uppies","$no_rando"],
+                        "item_count": 15
+                    },
+                    {
+                        "name": "Yakow Cliff",
+                        "access_rules": ["$over_and_uppies","$no_rando"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Oracle Platform",
+                        "access_rules": ["$long_jumps","$no_rando"],
+                        "item_count": 6
+                    }
+                ]
+            },
+            {
+                "name": "SB",             
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 128
+                    },
+                    {
+                        "name": "Green Ridge",
+                        "access_rules": ["DoubleJump","Crouch,CrouchJump","$no_rando"],
+                        "item_count": 5
+                    },
+                    {
+                        "name": "Blue Ridge",
+                        "access_rules": ["BlueSwitch,$no_rando","BlueSwitch,DoubleJump","BlueSwitch,Crouch,CrouchUppercut","BlueSwitch,Punch,PunchUppercut"],
+                        "item_count": 5
+                    },
+                    {
+                        "name": "Cannon Pillars",
+                        "access_rules": ["BlueSwitch"],
+                        "item_count": 12
+                    }
+                ]
+            },
+            {
+                "name": "FJ",            
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 111
+                    },
+                    {
+                        "name": "Post Jungle Elevator",
+                        "access_rules": ["Elevator"],
+                        "item_count": 6
+                    },
+                    {
+                        "name": "Post Jungle Elevator with Eco",
+                        "access_rules": ["Elevator,BlueSwitch"],
+                        "item_count": 28
+                    },
+                    {
+                        "name": "Post Dark Eco Plant",
+                        "access_rules": ["Elevator,BlueSwitch,CanFight","Elevator,BlueSwitch,$no_rando"],
+                        "item_count": 5
+                    }
+                ]
+            },
+//Misty Island
+            {
+                "name": "MI",
+                "access_rules": ["Boat"],             
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 114
+                    },
+                    {
+                        "name": "See Saw Orbs",
+                        "access_rules": ["JumpDive","Crouch,CrouchJump","Punch,PunchUppercut,JumpKick","$no_rando"],
+                        "item_count": 7
+                    },
+                    {
+                        "name": "Orb Cache",
+                        "access_rules": ["CanFight","Roll,RollJump","$no_rando"],
+                        "item_count": 15
+                    },
+                    {
+                        "name": "Silo Boxes",
+                        "access_rules": ["CanFight","$no_rando"],
+                        "item_count": 14
+                    }
+                ]
+            },
+//Fire Canyon
+            {
+                "name": "FC",
+                "access_rules": ["$cell_gate|1"],             
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 50
+                    }
+                ]
+            },
+//Secondary Area
+            {
+                "name": "RV", 
+                "access_rules": ["$cell_gate|1"],              
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 17
+                    },
+                    {
+                        "name": "Orb Cache",
+                        "access_rules": ["Roll,RollJump","$no_rando"],
+                        "item_count": 20
+                    },
+                    {
+                        "name": "Pontoons",
+                        "access_rules": ["Pontoons"],
+                        "item_count": 6
+                    },
+                    {
+                        "name": "Above Pontoons",
+                        "access_rules": ["Pontoons,$any_uppies","Pontoons,$no_rando"],
+                        "item_count": 7
+                    }
+                ]
+            },
+            {
+                "name": "PB",
+                "access_rules": ["$cell_gate|1"],            
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 200
+                    }
+                ]
+            },
+            {
+                "name": "BS",
+                "access_rules": ["$cell_gate|1,Pontoons"],             
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 136
+                    },
+                    {
+                        "name": "Flut Flut Orbs",
+                        "access_rules": [],
+                        "item_count": 59
+                    },
+                    {
+                        "name": "Tether Pillars",
+                        "access_rules": ["$any_uppies","$no_rando"],
+                        "item_count": 11
+                    }
+                ]
+            },
+            {
+                "name": "LPC",
+                "access_rules": ["$cell_gate|1"],             
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 178
+                    },
+                    {
+                        "name": "Orb Cache in First Chamber",
+                        "access_rules": ["JumpDive,DoubleJump","$no_rando"],
+                        "item_count": 22
+                    }
+                ]
+            },
+//Mountain Pass
+            {
+                "name": "MP",
+                "access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$klawwpunch"],             
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 50
+                    }
+                ]
+            },
+//Tertiary Area
+            {
+                "name": "VC",
+                "access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$klawwpunch"],               
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 50
+                    }
+                ]
+            },
+            {
+                "name": "SC",
+                "access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$klawwpunch"],            
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 150
+                    },
+                    {
+                        "name": "Dark Cave",
+                        "access_rules": ["CanFight,[DoubleJump]","CanFight,[Crouch,CrouchJump]","$no_rando"],
+                        "item_count": 5
+                    },
+                    {
+                        "name": "Robot Scaffolding",
+                        "access_rules": ["Can Fight","$no_rando"],
+                        "item_count": 45
+                    }
+                ]
+            },
+            {
+                "name": "SM",
+                "access_rules": ["[$cell_gate|2],$no_rando,Gondola,$long_jumps","$cell_gate|2,$over_and_uppies,$klawwpunch,Gondola,$long_jumps"],             
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 78
+                    },
+                    {
+                        "name": "Precursor Blockers",
+                        "access_rules": ["$any_uppies","JumpDive","$no_rando"],
+                        "item_count": 15
+                    },
+                    {
+                        "name": "Yellow Eco Orbs",
+                        "access_rules": ["YellowSwitch"],
+                        "item_count": 17
+                    },
+                    {
+                        "name": "Flut Flut Orbs",
+                        "access_rules": ["Flut Flut"],
+                        "item_count": 15
+                    },
+                    {
+                        "name": "Lurker Infested Cave",
+                        "access_rules": ["$long_jumps,CanFight,DoubleJump","$long_jumps,CanFight,Crouch,CrouchJump","$no_rando"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Snowy Fort Orbs and Caches",
+                        "access_rules": ["FortGate"],
+                        "item_count": 72
+                    }
+                ]
+            },
+//Lava Tube
+            {
+                "name": "LT",
+                "access_rules": ["[$cell_gate|3],$no_rando","$cell_gate|3,$over_and_uppies,$klawwpunch"],             
+                "sections": [
+                    {
+                        "name": "Main",
+                        "item_count": 50
+                    }
+                ]
+            },
+//Gol and Maia's Citadel
+            {
+                "name": "GMC",
+                "access_rules": ["[$cell_gate|3],$no_rando","$cell_gate|3,$over_and_uppies,$klawwpunch"],             
+                "sections": [
+                    {
+                        "name": "Main",
+                        "access_rules": ["JumpDive","Roll,RollJump"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Sage Rooms",
+                        "access_rules": ["JumpDive,CanFight,DoubleJump,Punch,PunchUppercut","JumpDive,CanFight,JumpKick,Punch,PunchUppercut","JumpDive,CanFight,DoubleJump,Roll,RollJump","JumpDive,CanFight,JumpKick,Roll,RollJump","$no_rando"],
+                        "item_count": 177
+                    },
+                    {
+                        "name": "Green Sage",
+                        "access_rules": ["SagesFreed: 3,JumpDive,Crouch,CrouchUppercut,CanFight","SagesFreed: 3,JumpDive,Crouch,CrouchUppercut,CanFight","SagesFreed: 3,$no_rando"],
+                        "item_count": 20
+                    }
+                ]
+            }
+        ]
+    }
+]
