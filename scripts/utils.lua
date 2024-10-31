@@ -138,7 +138,7 @@ function any_uppies()
 end
 
 function over_and_uppies()
-	return has("DoubleJump") or (has("Crouch") and has("CrouchJump")) or (has("Punch") and has("PunchUppercut") and has("JumpKick"))
+	return has("DoubleJump") or (has("Crouch") and has("CrouchJump")) or (has("Crouch") and has("CrouchUppercut") and has("JumpKick"))
 end
 
 function long_jumps()
