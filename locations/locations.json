@@ -770,7 +770,7 @@
         "children": [
             {
                 "name": "Klaww",
-				"access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$klawwpunch"],
+				"access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$punch_for_klaww"],
                 "sections": [
                     {
                         "name": "Power Cell (Defeat Klaww)",
@@ -794,7 +794,7 @@
         "children": [
             {
                 "name": "Mountain Pass",
-				"access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$klawwpunch"],
+				"access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$punch_for_klaww"],
                 "sections": [
 					{
                         "name": "Power Cell (Reach the End of Mountain Pass)",
