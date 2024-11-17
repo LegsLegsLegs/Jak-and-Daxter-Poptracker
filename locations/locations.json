@@ -830,7 +830,7 @@
 //Tertiary Area
 	{
         "name": "Tertiary Area - Volcanic Crater Region",
-        "access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$klawwpunch"],
+        "access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$punch_for_klaww"],
         "children": [
 //Volcanic Crater
 			{
@@ -1067,7 +1067,7 @@
 //Lava Tube
 	{
         "name": "Lava Tube",
-	"access_rules": ["[$cell_gate|3],$no_rando","$cell_gate|3,$over_and_uppies,$klawwpunch"],
+	"access_rules": ["[$cell_gate|3],$no_rando","$cell_gate|3,$over_and_uppies,$punch_for_klaww"],
         "children": [
             {
                 "name": "Lava Tube",
@@ -1101,7 +1101,7 @@
 //Gol and Maia's Citadel
 	{
         "name": "Gol and Maia's Citadel",
-        "access_rules": ["[$cell_gate|3],$no_rando","$cell_gate|3,$over_and_uppies,$klawwpunch"],
+        "access_rules": ["[$cell_gate|3],$no_rando","$cell_gate|3,$over_and_uppies,$punch_for_klaww"],
         "children": [
             {
                 "name": "Gol and Maia's Citadel",
@@ -1205,7 +1205,7 @@
         "children": [
             {
                 "name": "Dark Eco Silo",
-				"access_rules": ["SagesFreed: 3,FreedGreen,CanFight, DoubleJump","SagesFreed: 3,FreedGreen,CanFight, JumpDive","SagesFreed: 3,FreedGreen,CanFight, Crouch,CrouchJump","SagesFreed: 3,FreedGreen,CanFight, Crouch,CrouchUppercut","SagesFreed: 3,FreedGreen,$no_rando"],
+				"access_rules": ["SagesFreed: 3,FreedGreen,CanFight,DoubleJump","SagesFreed: 3,FreedGreen,CanFight,JumpDive","SagesFreed: 3,FreedGreen,CanFight,Crouch,CrouchJump","SagesFreed: 3,FreedGreen,CanFight,Crouch,CrouchUppercut","SagesFreed: 3,FreedGreen,$no_rando"],
                 "sections": [
 					{
                         "name": "Defeat Gol and Maia",
