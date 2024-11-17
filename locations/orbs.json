@@ -195,7 +195,7 @@
 //Mountain Pass
             {
                 "name": "MP",
-                "access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$klawwpunch"],             
+                "access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$punch_for_klaww"],             
                 "sections": [
                     {
                         "name": "Main",
@@ -206,7 +206,7 @@
 //Tertiary Area
             {
                 "name": "VC",
-                "access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$klawwpunch"],               
+                "access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$punch_for_klaww"],               
                 "sections": [
                     {
                         "name": "Main",
@@ -216,7 +216,7 @@
             },
             {
                 "name": "SC",
-                "access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$klawwpunch"],            
+                "access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$punch_for_klaww"],            
                 "sections": [
                     {
                         "name": "Main",
@@ -236,7 +236,7 @@
             },
             {
                 "name": "SM",
-                "access_rules": ["[$cell_gate|2],$no_rando,Gondola,$long_jumps","$cell_gate|2,$over_and_uppies,$klawwpunch,Gondola,$long_jumps"],             
+                "access_rules": ["[$cell_gate|2],$no_rando,Gondola,$long_jumps","$cell_gate|2,$over_and_uppies,$punch_for_klaww,Gondola,$long_jumps"],             
                 "sections": [
                     {
                         "name": "Main",
@@ -272,7 +272,7 @@
 //Lava Tube
             {
                 "name": "LT",
-                "access_rules": ["[$cell_gate|3],$no_rando","$cell_gate|3,$over_and_uppies,$klawwpunch"],             
+                "access_rules": ["[$cell_gate|3],$no_rando","$cell_gate|3,$over_and_uppies,$punch_for_klaww"],             
                 "sections": [
                     {
                         "name": "Main",
@@ -283,7 +283,7 @@
 //Gol and Maia's Citadel
             {
                 "name": "GMC",
-                "access_rules": ["[$cell_gate|3],$no_rando","$cell_gate|3,$over_and_uppies,$klawwpunch"],             
+                "access_rules": ["[$cell_gate|3],$no_rando","$cell_gate|3,$over_and_uppies,$punch_for_klaww"],             
                 "sections": [
                     {
                         "name": "Main",
