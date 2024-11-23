@@ -988,7 +988,7 @@
                     },
 					{
                         "name": "Power Cell (Get Through the Lurker Fort)",
-						"access_rules": ["$long_jumps,DoubleJump","$long_jumps,Punch,PunchUppercut","$no_rando"],
+						"access_rules": ["$long_jumps,DoubleJump,FortGate","$long_jumps,Punch,PunchUppercut,FortGate","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -1108,42 +1108,42 @@
                 "sections": [
 					{
                         "name": "Power Cell (Free the Blue Sage)",
-						"access_rules": ["JumpDive,CanFight,DoubleJump,Punch,PunchUppercut","JumpDive,CanFight,JumpKick,Punch,PunchUppercut","JumpDive,CanFight,DoubleJump,Roll,RollJump","JumpDive,CanFight,JumpKick,Roll,RollJump","$no_rando"],
+						"access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick",",CanFight,Roll,RollJump","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Blue Sage Freed",
-						"access_rules": ["JumpDive,CanFight,DoubleJump,Punch,PunchUppercut","JumpDive,CanFight,JumpKick,Punch,PunchUppercut","JumpDive,CanFight,DoubleJump,Roll,RollJump","JumpDive,CanFight,JumpKick,Roll,RollJump","$no_rando"],
+						"access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick",",CanFight,Roll,RollJump","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Power Cell (Free the Red Sage)",
-						"access_rules": ["JumpDive,CanFight,DoubleJump,Punch,PunchUppercut","JumpDive,CanFight,JumpKick,Punch,PunchUppercut","JumpDive,CanFight,DoubleJump,Roll,RollJump","JumpDive,CanFight,JumpKick,Roll,RollJump","$no_rando"],
+						"access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick","Roll,RollJump,CanFight,$some_uppies,DoubleJump,JumpKick","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Red Sage Freed",
-						"access_rules": ["JumpDive,CanFight,DoubleJump,Punch,PunchUppercut","JumpDive,CanFight,JumpKick,Punch,PunchUppercut","JumpDive,CanFight,DoubleJump,Roll,RollJump","JumpDive,CanFight,JumpKick,Roll,RollJump","$no_rando"],
+						"access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick","Roll,RollJump,CanFight,$some_uppies,DoubleJump,JumpKick","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Power Cell (Free the Yellow Sage)",
-						"access_rules": ["CanFight,JumpDive","CanFight,Roll,RollJump","$no_rando"],
+						"access_rules": ["CanFight,JumpDive,$some_uppies","CanFight,Roll,RollJump,$some_uppies","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Yellow Sage Freed",
-						"access_rules": ["CanFight,JumpDive","CanFight,Roll,RollJump","$no_rando"],
+						"access_rules": ["CanFight,JumpDive,$some_uppies","CanFight,Roll,RollJump,$some_uppies","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Power Cell (Free the Green Sage)",
-						"access_rules": ["SagesFreed: 3,JumpDive,Crouch,CrouchUppercut,CanFight","SagesFreed: 3,JumpDive,Crouch,CrouchUppercut,CanFight","SagesFreed: 3,$no_rando"],
+						"access_rules": ["SagesFreed: 3,JumpDive,$over_and_uppies,CanFight","SagesFreed: 3,Roll,RollJump,$over_and_uppies,CanFight","SagesFreed: 3,$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Green Sage Freed",
-						"access_rules": ["SagesFreed: 3,JumpDive,Crouch,CrouchUppercut,CanFight","SagesFreed: 3,JumpDive,Crouch,CrouchUppercut,CanFight","SagesFreed: 3,$no_rando"],
+						"access_rules": ["SagesFreed: 3,JumpDive,$over_and_uppies,CanFight","SagesFreed: 3,Roll,RollJump,$over_and_uppies,CanFight","SagesFreed: 3,$no_rando"],
                         "item_count": 1
                     },
                     {
@@ -1158,7 +1158,7 @@
                     },
 					{
                         "name": "Scout Fly (Launch Pad Room)",
-						"access_rules": ["JumpDive","Roll,RollJump","$no_rando"],						
+						"access_rules": ["JumpDive,$some_uppies","Roll,RollJump,$some_uppies","$no_rando"],						
                         "item_count": 1
                     },
 					{
@@ -1168,17 +1168,17 @@
                     },
 					{
                         "name": "Scout Fly (Blast Furnace)",
-						"access_rules": ["JumpDive,CanFight,DoubleJump,Punch,PunchUppercut","JumpDive,CanFight,JumpKick,Punch,PunchUppercut","JumpDive,CanFight,DoubleJump,Roll,RollJump","JumpDive,CanFight,JumpKick,Roll,RollJump","$no_rando"],
+						"access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick",",CanFight,Roll,RollJump,$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Before Jumping Lurkers)",
-						"access_rules": ["JumpDive,CanFight,DoubleJump,Punch,PunchUppercut","JumpDive,CanFight,JumpKick,Punch,PunchUppercut","JumpDive,CanFight,DoubleJump,Roll,RollJump","JumpDive,CanFight,JumpKick,Roll,RollJump","$no_rando"],
+						"access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick","Roll,RollJump,CanFight,$some_uppies,DoubleJump,JumpKick,$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Top of Rotating Tower)",
-						"access_rules": ["SagesFreed: 3,JumpDive,Crouch,CrouchUppercut","SagesFreed:3,$no_rando"],
+						"access_rules": ["SagesFreed: 3,JumpDive,$stair_uppies","SagesFreed: 3,Roll,RollJump,$stair_uppies","SagesFreed:3,$no_rando"],
                         "item_count": 1
                     },
                     {

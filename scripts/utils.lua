@@ -141,6 +141,10 @@ function over_and_uppies()
 	return has("DoubleJump") or (has("Crouch") and has("CrouchJump")) or (has("Crouch") and has("CrouchUppercut") and has("JumpKick"))
 end
 
+function stair_uppies()
+	return has("DoubleJump") or has("JumpDive") or (has("Crouch") and has("CrouchJump")) or (has("Crouch") and has("CrouchUppercut"))
+end
+
 function long_jumps()
 	return (has("DoubleJump") and has("JumpKick")) or (has("Roll") and has("RollJump"))
 end

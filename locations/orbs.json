@@ -292,12 +292,12 @@
                     },
                     {
                         "name": "Sage Rooms",
-                        "access_rules": ["JumpDive,CanFight,DoubleJump,Punch,PunchUppercut","JumpDive,CanFight,JumpKick,Punch,PunchUppercut","JumpDive,CanFight,DoubleJump,Roll,RollJump","JumpDive,CanFight,JumpKick,Roll,RollJump","$no_rando"],
+                        "access_rules": ["JumpDive,CanFight,$some_uppies","$some_uppies,CanFight,Roll,RollJump","$no_rando"],
                         "item_count": 177
                     },
                     {
                         "name": "Green Sage",
-                        "access_rules": ["SagesFreed: 3,JumpDive,Crouch,CrouchUppercut,CanFight","SagesFreed: 3,JumpDive,Crouch,CrouchUppercut,CanFight","SagesFreed: 3,$no_rando"],
+                        "access_rules": ["SagesFreed: 3,JumpDive,$some_uppies,$stair_uppies,CanFight","SagesFreed: 3,Roll,RollJump,$some_uppies,$stair_uppies,CanFight","SagesFreed: 3,$no_rando"],
                         "item_count": 20
                     }
                 ]
