@@ -501,4 +501,9 @@
 			},
 		]
     },
+    {
+        "name": "Dummy Item to force a logic refresh",
+        "type": "toggle",
+        "codes": "force_refresh"
+    }
 ]
