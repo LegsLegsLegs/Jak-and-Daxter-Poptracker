@@ -193,7 +193,7 @@
                     },
 					{
                         "name": "Scout Fly (Overlooking Blue Eco Vent)",
-						"access_rules": ["[BlueSwitch]","[DoubleJump,Crouch,CrouchUppercut,$flybox]","[DoubleJump,Punch,PunchUppercut,$flybox]","$no_rando"],
+						"access_rules": ["[BlueSwitch]","DoubleJump,Crouch,CrouchUppercut,$flybox","DoubleJump,Punch,PunchUppercut,$flybox","$no_rando"],
                         "item_count": 1
                     },
                     {
@@ -492,6 +492,7 @@
                     },
 					{
                         "name": "Scout Fly (Boggy Swamp Entrance)",
+                        "access_rules": ["Pontoons","$no_rando,Pontoons"],
                         "item_count": 1
                     },
 					{
