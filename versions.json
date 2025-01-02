@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.4.1",
+			"download_url": "https://github.com/LegsLegsLegs/Jak-and-Daxter-Poptracker/archive/refs/tags/1.4.0.zip",
+			"sha256": "5E0D4244CC5F0D6BF987EA20B64C25DA6E2A55EE22BD2E761CF02F27C3C4A907",
+			"changelog": ["Corrected Klaww logic, Citadel logic, associated orb logic"]
+		},
+		{
 			"package_version": "1.4.0",
 			"download_url": "https://github.com/LegsLegsLegs/Jak-and-Daxter-Poptracker/archive/refs/tags/1.4.0.zip",
 			"sha256": "4ADA63AA90514F4DE3B1D7C7E454C627A3CDA3E28D67A8A088C25DA9070A8C1E",
