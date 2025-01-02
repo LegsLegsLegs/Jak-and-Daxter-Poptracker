@@ -771,7 +771,7 @@
         "children": [
             {
                 "name": "Klaww",
-				"access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$punch_for_klaww"],
+				"access_rules": ["[$cell_gate|2],$no_rando,Pontoons","$cell_gate|2,$over_and_uppies,$punch_for_klaww,Pontoons"],
                 "sections": [
                     {
                         "name": "Power Cell (Defeat Klaww)",
@@ -1206,7 +1206,7 @@
         "children": [
             {
                 "name": "Dark Eco Silo",
-				"access_rules": ["SagesFreed: 3,FreedGreen,CanFight,DoubleJump","SagesFreed: 3,FreedGreen,CanFight,JumpDive","SagesFreed: 3,FreedGreen,CanFight,Crouch,CrouchJump","SagesFreed: 3,FreedGreen,CanFight,Crouch,CrouchUppercut","SagesFreed: 3,FreedGreen,$no_rando"],
+				"access_rules": ["SagesFreed: 3,FreedGreen,CanFight,DoubleJump,$cell_gate|3","SagesFreed: 3,FreedGreen,CanFight,JumpDive,$cell_gate|3","SagesFreed: 3,FreedGreen,CanFight,Crouch,CrouchJump,$cell_gate|3","SagesFreed: 3,FreedGreen,CanFight,Crouch,CrouchUppercut,$cell_gate|3","SagesFreed: 3,FreedGreen,$no_rando,$cell_gate|3"],
                 "sections": [
 					{
                         "name": "Defeat Gol and Maia",
