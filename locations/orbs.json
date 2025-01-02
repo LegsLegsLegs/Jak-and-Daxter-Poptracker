@@ -65,17 +65,17 @@
                 "sections": [
                     {
                         "name": "Main",
-                        "item_count": 111
+                        "item_count": 97
                     },
                     {
                         "name": "Post Jungle Elevator",
                         "access_rules": ["Elevator"],
-                        "item_count": 6
+                        "item_count": 18
                     },
                     {
                         "name": "Post Jungle Elevator with Eco",
                         "access_rules": ["Elevator,BlueSwitch"],
-                        "item_count": 28
+                        "item_count": 30
                     },
                     {
                         "name": "Post Dark Eco Plant",
