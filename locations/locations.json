@@ -178,7 +178,6 @@
                     },
 					{
                         "name": "Scout Fly (Under Wood Pillars)",
-						"access_rules": ["[BlueSwitch]","[$flybox]","$no_rando"],
                         "item_count": 1
                     },
 					{

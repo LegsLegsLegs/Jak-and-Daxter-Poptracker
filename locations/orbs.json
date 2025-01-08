@@ -8,7 +8,12 @@
                 "sections": [
                     {
                         "name": "Main",
-                        "item_count": 50
+                        "item_count": 48
+                    },
+                    {
+                        "name": "Power Cell Cliff",
+						"access_rules": ["[$over_and_uppies]","$no_rando"],
+                        "item_count": 2
                     }
                 ]
             },
