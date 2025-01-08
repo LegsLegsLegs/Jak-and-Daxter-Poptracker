@@ -925,7 +925,7 @@
                     },
 					{
                         "name": "Scout Fly (Dark Cave)",
-						"access_rules": ["CanFight,DoubleJump","CanFight,Crouch,CrouchJump","$no_rando"],						
+						"access_rules": ["CanFight,DoubleJump,$flybox","CanFight,Crouch,CrouchJump,$flybox","$no_rando"],						
                         "item_count": 1
                     },
 					{
