@@ -188,7 +188,12 @@
                 "sections": [
                     {
                         "name": "Main",
-                        "item_count": 178
+                        "item_count": 148
+                    },
+                    {
+                        "name": "Helix Room",
+                        "access_rules": ["DoubleJump","CanFight","$no_rando"],
+                        "item_count": 30
                     },
                     {
                         "name": "Orb Cache in First Chamber",
