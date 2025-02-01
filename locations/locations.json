@@ -988,7 +988,7 @@
                     },
 					{
                         "name": "Power Cell (Get Through the Lurker Fort)",
-						"access_rules": ["$long_jumps,DoubleJump,FortGate","$long_jumps,Punch,PunchUppercut,FortGate","$no_rando"],
+						"access_rules": ["$long_jumps,DoubleJump,FortGate","$long_jumps,Punch,PunchUppercut,FortGate","$no_rando,FortGate"],
                         "item_count": 1
                     },
 					{
