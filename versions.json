@@ -2,7 +2,7 @@
 	"versions": [
 		{
 			"package_version": "1.5.0",
-			"download_url": "https://github.com/LegsLegsLegs/Jak-and-Daxter-Poptracker/archive/refs/tags/1.4.1.zip",
+			"download_url": "https://github.com/LegsLegsLegs/Jak-and-Daxter-Poptracker/archive/refs/tags/1.5.0.zip",
 			"sha256": "8F242E92A50F10C0AC552E244DA8DFCBBACAF54A91F135843E02070C10880ABA",
 			"changelog": ["Small bug fixes, orb counts"]
 		},
