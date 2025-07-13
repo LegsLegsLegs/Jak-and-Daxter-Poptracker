@@ -19,6 +19,7 @@ REGION_MAPPING = {
 
 ORB_REGIONS = {
 	"@Orbs/GR/Main",
+	"@Orbs/GR/Power Cell Cliff",
 	"@Orbs/SV/Main",
 	"@Orbs/SV/Cache Cliff",
 	"@Orbs/SV/Yakow Cliff",
@@ -33,30 +34,34 @@ ORB_REGIONS = {
 	"@Orbs/FJ/Post Dark Eco Plant",
 	"@Orbs/MI/Main",
 	"@Orbs/MI/See Saw Orbs",
-	"@Orbs/MI/Orb Cache",
-	"@Orbs/MI/Silo Boxes",
+	"@Orbs/MI/Arena",
 	"@Orbs/FC/Main",
 	"@Orbs/RV/Main",
 	"@Orbs/RV/Orb Cache",
 	"@Orbs/RV/Pontoons",
-	"@Orbs/RV/Above Pontoons",
 	"@Orbs/PB/Main",
 	"@Orbs/BS/Main",
+	"@Orbs/BS/Far Jumps",
 	"@Orbs/BS/Flut Flut Orbs",
 	"@Orbs/BS/Tether Pillars",
 	"@Orbs/LPC/Main",
+	"@Orbs/LPC/Helix Room",
+	"@Orbs/LPC/Capsule Room Exterior",
 	"@Orbs/LPC/Orb Cache in First Chamber",
 	"@Orbs/MP/Main",
 	"@Orbs/VC/Main",
 	"@Orbs/SC/Main",
 	"@Orbs/SC/Dark Cave",
-	"@Orbs/SC/Robot Scaffolding",
+	"@Orbs/SC/Spider Tunnel Crates",
+	"@Orbs/SC/Robot Scaffolding Level One",
+	"@Orbs/SC/Robot Scaffolding Level Two and Three",
 	"@Orbs/SM/Main",
 	"@Orbs/SM/Precursor Blockers",
 	"@Orbs/SM/Yellow Eco Orbs",
 	"@Orbs/SM/Flut Flut Orbs",
 	"@Orbs/SM/Lurker Infested Cave",
 	"@Orbs/SM/Snowy Fort Orbs and Caches",
+	"@Orbs/SM/Snowy Fort Course End",
 	"@Orbs/LT/Main",
 	"@Orbs/GMC/Main",
 	"@Orbs/GMC/Sage Rooms",
@@ -129,16 +134,27 @@ function little_uppies()
 	return has("DoubleJump") or (has("Crouch") and has("CrouchJump")) or has("JumpKick")
 end
 
+function log_moves()
+	return (has("DoubleJump") and has("JumpKick")) or (has("Crouch") and has("CrouchUppercut")) or (has("Punch") and has("PunchUppercut"))
+
+function tiny_uppies()
+	return has("DoubleJump") or (has("Crouch") and has("CrouchJump"))
+end
+
 function some_uppies()
 	return has("DoubleJump") or has("JumpKick") or (has("Punch") and has ("PunchUppercut"))
 end
 
 function any_uppies()
-	return has("DoubleJump") or (has("Crouch") and has("CrouchJump")) or (has("Crouch") and has("CrouchUppercut") and has("JumpKick")) or (has("Punch") and has("PunchUppercut"))
+	return has("DoubleJump") or (has("Crouch") and has("CrouchJump")) or (has("Crouch") and has("CrouchUppercut")) or (has("Punch") and has("PunchUppercut"))
 end
 
 function over_and_uppies()
-	return has("DoubleJump") or (has("Crouch") and has("CrouchJump")) or (has("Crouch") and has("CrouchUppercut") and has("JumpKick"))
+	return has("DoubleJump") or (has("Crouch") and has("CrouchJump")) or (has("Crouch") and has("CrouchUppercut"))
+end
+
+function over_and_over_and_uppies()
+	return has("DoubleJump") or (has("Crouch") and has("CrouchJump")) or (has("Crouch") and has("CrouchUppercut") and has("Jumpkick"))
 end
 
 function stair_uppies()

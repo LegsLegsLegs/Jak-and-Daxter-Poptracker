@@ -65,7 +65,7 @@
                     },
 					{
                         "name": "Orb Cache in Sandover Village (by Farmer's House)",
-						"access_rules": ["$over_and_uppies","$no_rando"],						
+						"access_rules": ["$tiny_uppies","$no_rando"],						
                         "item_count": 1
                     },
                     {
@@ -86,7 +86,7 @@
                     },
 					{
                         "name": "Scout Fly (Overlooking Farmer's House)",
-						"access_rules": ["[$over_and_uppies],$flybox","$no_rando"],
+						"access_rules": ["$over_and_over_and_uppies,$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -96,7 +96,7 @@
                     },
 					{
                         "name": "Scout Fly (Farmer's House)",
-						"access_rules": ["$flybox","$no_rando"],
+						"access_rules": ["$tiny_uppies","$flybox","$no_rando"],
                         "item_count": 1
                     },
                     {
@@ -187,12 +187,12 @@
                     },
 					{
                         "name": "Scout Fly (Overlooking Green Eco Vents)",
-						"access_rules": ["DoubleJump,$flybox","Crouch,CrouchJump,$flybox","$no_rando"],
+						"access_rules": ["log_moves,$flybox","DoubleJump,$flybox","Crouch,CrouchJump,$flybox","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Overlooking Blue Eco Vent)",
-						"access_rules": ["[BlueSwitch]","DoubleJump,Crouch,CrouchUppercut,$flybox","DoubleJump,Punch,PunchUppercut,$flybox","$no_rando"],
+						"access_rules": ["[BlueSwitch]","$log_moves,$flybox","$no_rando"],
                         "item_count": 1
                     },
                     {
@@ -222,12 +222,10 @@
                     },
 					{
                         "name": "Power Cell (Get to the Top of the Temple)",
-						"access_rules": ["$little_uppies","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Jungle Elevator",
-						"access_rules": ["$little_uppies","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -348,7 +346,6 @@
                     },
 					{
                         "name": "Power Cell (Blue Eco Power Cell)",
-						"access_rules": ["$little_uppies","JumpDive","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -372,7 +369,7 @@
                     },
 					{
                         "name": "Scout Fly (Ledge Near Arena Exit)",
-						"access_rules": ["JumpDive","Crouch,CrouchUppercut,CrouchJump","$no_rando"],
+						"access_rules": ["JumpDive","Crouch,CrouchJump","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -491,7 +488,7 @@
                     },
 					{
                         "name": "Scout Fly (Boggy Swamp Entrance)",
-                        "access_rules": ["Pontoons","$no_rando,Pontoons"],
+                        "access_rules": ["Pontoons"],
                         "item_count": 1
                     },
 					{
@@ -594,6 +591,7 @@
                     },
 					{
                         "name": "Power Cell (Break the Zeppelin Tether 1)",
+                        "access_rules": ["$long_jumps","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -770,7 +768,7 @@
         "children": [
             {
                 "name": "Klaww",
-				"access_rules": ["[$cell_gate|2],$no_rando,Pontoons","$cell_gate|2,$over_and_uppies,$punch_for_klaww,Pontoons"],
+				"access_rules": ["$cell_gate|2,$no_rando,Pontoons","$cell_gate|2,$over_and_uppies,$punch_for_klaww,Pontoons"],
                 "sections": [
                     {
                         "name": "Power Cell (Defeat Klaww)",
@@ -794,7 +792,7 @@
         "children": [
             {
                 "name": "Mountain Pass",
-				"access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$punch_for_klaww"],
+				"access_rules": ["$cell_gate|2,$no_rando","$cell_gate|2,$over_and_uppies,$punch_for_klaww"],
                 "sections": [
 					{
                         "name": "Power Cell (Reach the End of Mountain Pass)",
@@ -830,7 +828,7 @@
 //Tertiary Area
 	{
         "name": "Tertiary Area - Volcanic Crater Region",
-        "access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$punch_for_klaww"],
+        "access_rules": ["$cell_gate|2,$no_rando","$cell_gate|2,$over_and_uppies,$punch_for_klaww"],
         "children": [
 //Volcanic Crater
 			{
@@ -891,7 +889,6 @@
                     },
 					{
                         "name": "Power Cell (Climb the Giant Robot)",
-						"access_rules": ["CanFight","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -932,8 +929,7 @@
                         "item_count": 1
                     },
 					{
-                        "name": "Scout Fly (Robot Cave, at Top Level)",
-						"access_rules": ["$flybox","$no_rando"],						
+                        "name": "Scout Fly (Robot Cave, at Top Level)",						
                         "item_count": 1
                     },
                     {
@@ -1067,7 +1063,7 @@
 //Lava Tube
 	{
         "name": "Lava Tube",
-	"access_rules": ["[$cell_gate|3],$no_rando","$cell_gate|3,$over_and_uppies,$punch_for_klaww"],
+	"access_rules": ["$cell_gate|3,$no_rando","$cell_gate|3,$over_and_uppies,$punch_for_klaww"],
         "children": [
             {
                 "name": "Lava Tube",
@@ -1101,39 +1097,39 @@
 //Gol and Maia's Citadel
 	{
         "name": "Gol and Maia's Citadel",
-        "access_rules": ["[$cell_gate|3],$no_rando","$cell_gate|3,$over_and_uppies,$punch_for_klaww"],
+        "access_rules": ["$cell_gate|3,$no_rando","$cell_gate|3,$over_and_uppies,$punch_for_klaww"],
         "children": [
             {
                 "name": "Gol and Maia's Citadel",
                 "sections": [
 					{
                         "name": "Power Cell (Free the Blue Sage)",
-						"access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick",",CanFight,Roll,RollJump","$no_rando"],
+						"access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick","Roll,RollJump,CanFight,$some_uppies,DoubleJump,JumpKick","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Blue Sage Freed",
-						"access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick",",CanFight,Roll,RollJump","$no_rando"],
+						"access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick","Roll,RollJump,CanFight,$some_uppies,DoubleJump,JumpKick","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Power Cell (Free the Red Sage)",
-						"access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick","Roll,RollJump,CanFight,$some_uppies,DoubleJump,JumpKick","$no_rando"],
+						"access_rules": ["CanFight,JumpDive,$some_uppies","CanFight,Roll,RollJump,$some_uppies","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Red Sage Freed",
-						"access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick","Roll,RollJump,CanFight,$some_uppies,DoubleJump,JumpKick","$no_rando"],
+						"access_rules": ["CanFight,JumpDive,$some_uppies","CanFight,Roll,RollJump,$some_uppies","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Power Cell (Free the Yellow Sage)",
-						"access_rules": ["CanFight,JumpDive,$some_uppies","CanFight,Roll,RollJump,$some_uppies","$no_rando"],
+                        "access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick",",CanFight,Roll,RollJump","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Yellow Sage Freed",
-						"access_rules": ["CanFight,JumpDive,$some_uppies","CanFight,Roll,RollJump,$some_uppies","$no_rando"],
+                        "access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick",",CanFight,Roll,RollJump","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -1144,6 +1140,21 @@
 					{
                         "name": "Green Sage Freed",
 						"access_rules": ["SagesFreed: 3,JumpDive,$over_and_uppies,CanFight","SagesFreed: 3,Roll,RollJump,$over_and_uppies,CanFight","SagesFreed: 3,$no_rando"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Orb Cache at Start of Launch Pad Room",
+                        "access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick",",CanFight,Roll,RollJump","$no_rando"],					
+                        "item_count": 1
+                    },
+                   {
+                        "name": "Orb Cache at End of Launch Pad Room",
+                        "access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick",",CanFight,Roll,RollJump","$no_rando"],						
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Orb Cache at End of Blast Furnace",
+						"access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick","Roll,RollJump,CanFight,$some_uppies,DoubleJump,JumpKick","$no_rando"],						
                         "item_count": 1
                     },
                     {
@@ -1202,10 +1213,10 @@
 //Dark Eco Silo
 	{
         "name": "Dark Eco Silo",
+        "access_rules": ["SagesFreed: 3,FreedGreen,CanFight,DoubleJump,$cell_gate|3","SagesFreed: 3,FreedGreen,CanFight,JumpDive,$cell_gate|3","SagesFreed: 3,FreedGreen,CanFight,Crouch,CrouchJump,$cell_gate|3","SagesFreed: 3,FreedGreen,CanFight,Crouch,CrouchUppercut,$cell_gate|3","SagesFreed: 3,FreedGreen,$no_rando,$cell_gate|3"],
         "children": [
             {
                 "name": "Dark Eco Silo",
-				"access_rules": ["SagesFreed: 3,FreedGreen,CanFight,DoubleJump,$cell_gate|3","SagesFreed: 3,FreedGreen,CanFight,JumpDive,$cell_gate|3","SagesFreed: 3,FreedGreen,CanFight,Crouch,CrouchJump,$cell_gate|3","SagesFreed: 3,FreedGreen,CanFight,Crouch,CrouchUppercut,$cell_gate|3","SagesFreed: 3,FreedGreen,$no_rando,$cell_gate|3"],
                 "sections": [
 					{
                         "name": "Defeat Gol and Maia",
