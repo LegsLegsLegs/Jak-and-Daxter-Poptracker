@@ -136,6 +136,7 @@ end
 
 function log_moves()
 	return (has("DoubleJump") and has("JumpKick")) or (has("Crouch") and has("CrouchUppercut")) or (has("Punch") and has("PunchUppercut"))
+end
 
 function tiny_uppies()
 	return has("DoubleJump") or (has("Crouch") and has("CrouchJump"))
