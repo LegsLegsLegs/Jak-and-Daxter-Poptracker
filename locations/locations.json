@@ -1104,22 +1104,22 @@
                 "sections": [
 					{
                         "name": "Power Cell (Free the Blue Sage)",
-						"access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick","Roll,RollJump,CanFight,$some_uppies,DoubleJump,JumpKick","$no_rando"],
+						"access_rules": ["JumpDive,CanFight,$stair_uppies,DoubleJump,JumpKick,","JumpDive,CanFight,$stair_uppies,Roll,RollJump","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Blue Sage Freed",
-						"access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick","Roll,RollJump,CanFight,$some_uppies,DoubleJump,JumpKick","$no_rando"],
+						"access_rules": ["JumpDive,CanFight,$stair_uppies,DoubleJump,JumpKick,","JumpDive,CanFight,$stair_uppies,Roll,RollJump","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Power Cell (Free the Red Sage)",
-						"access_rules": ["CanFight,JumpDive,$some_uppies","CanFight,Roll,RollJump,$some_uppies","$no_rando"],
+						"access_rules": ["JumpDive,CanFight,$stair_uppies,DoubleJump,JumpKick,","JumpDive,CanFight,$stair_uppies,Roll,RollJump","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Red Sage Freed",
-						"access_rules": ["CanFight,JumpDive,$some_uppies","CanFight,Roll,RollJump,$some_uppies","$no_rando"],
+						"access_rules": ["JumpDive,CanFight,$stair_uppies,DoubleJump,JumpKick,","JumpDive,CanFight,$stair_uppies,Roll,RollJump","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -1154,7 +1154,7 @@
                     },
                     {
                         "name": "Orb Cache at End of Blast Furnace",
-						"access_rules": ["JumpDive,CanFight,$some_uppies,DoubleJump,JumpKick","Roll,RollJump,CanFight,$some_uppies,DoubleJump,JumpKick","$no_rando"],						
+						"access_rules": ["JumpDive,CanFight,$stair_uppies,DoubleJump,JumpKick,","JumpDive,CanFight,$stair_uppies,Roll,RollJump","$no_rando"],						
                         "item_count": 1
                     },
                     {
