@@ -457,12 +457,7 @@
         "overlay_font_size": 8,
         "codes": "Goal",
 		"initial_stage_idx": 0,
-		"stages": [ {
-			"img": "images/items/Dark Eco Plant.png",
-			"codes": "Goal,Goal_Plant",
-			"inherit_codes": false,
-			"name": "Goal: Defeat Dark Eco Plant" // since 0.21.1
-			},
+		"stages": [
 			{
 			"img": "images/items/Fire Canyon.png",
 			"codes": "Goal,Goal_Fire",
