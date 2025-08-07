@@ -205,7 +205,7 @@
 //Mountain Pass
             {
                 "name": "MP",
-                "access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$punch_for_klaww"],             
+                "access_rules": ["[$cell_gate|2],$no_rando,Pontoons","$cell_gate|2,$over_and_uppies,$punch_for_klaww,Pontoons"],             
                 "sections": [
                     {
                         "name": "Main",
@@ -216,7 +216,7 @@
 //Tertiary Area
             {
                 "name": "VC",
-                "access_rules": ["[$cell_gate|2],$no_rando","$cell_gate|2,$over_and_uppies,$punch_for_klaww"],               
+                "access_rules": ["[$cell_gate|2],$no_rando,Pontoons","$cell_gate|2,$over_and_uppies,$punch_for_klaww,Pontoons"],               
                 "sections": [
                     {
                         "name": "Main",
