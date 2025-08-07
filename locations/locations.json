@@ -1063,7 +1063,7 @@
 //Lava Tube
 	{
         "name": "Lava Tube",
-	"access_rules": ["$cell_gate|3,$no_rando","$cell_gate|3,$over_and_uppies,$punch_for_klaww"],
+	"access_rules": ["$cell_gate|3,$no_rando,Pontoons","$cell_gate|3,$over_and_uppies,$punch_for_klaww,Pontoons"],
         "children": [
             {
                 "name": "Lava Tube",
@@ -1097,7 +1097,7 @@
 //Gol and Maia's Citadel
 	{
         "name": "Gol and Maia's Citadel",
-        "access_rules": ["$cell_gate|3,$no_rando","$cell_gate|3,$over_and_uppies,$punch_for_klaww"],
+        "access_rules": ["$cell_gate|3,$no_rando,Pontoons","$cell_gate|3,$over_and_uppies,$punch_for_klaww,Pontoons"],
         "children": [
             {
                 "name": "Gol and Maia's Citadel",
