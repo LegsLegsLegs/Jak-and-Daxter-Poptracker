@@ -297,7 +297,7 @@
 //Lava Tube
             {
                 "name": "LT",
-                "access_rules": ["[$cell_gate|3],$no_rando","$cell_gate|3,$over_and_uppies,$punch_for_klaww"],             
+                "access_rules": ["[$cell_gate|3],$no_rando,Pontoons","$cell_gate|3,$over_and_uppies,$punch_for_klaww,Pontoons"],             
                 "sections": [
                     {
                         "name": "Main",
@@ -308,7 +308,7 @@
 //Gol and Maia's Citadel
             {
                 "name": "GMC",
-                "access_rules": ["[$cell_gate|3],$no_rando","$cell_gate|3,$over_and_uppies,$punch_for_klaww"],             
+                "access_rules": ["[$cell_gate|3],$no_rando,Pontoons","$cell_gate|3,$over_and_uppies,$punch_for_klaww,Pontoons"],             
                 "sections": [
                     {
                         "name": "Main",//combines Robot Scaffolding
