@@ -591,7 +591,7 @@
                     },
 					{
                         "name": "Power Cell (Break the Zeppelin Tether 1)",
-						"access_rules": ["$long_jumps","$no_rando"],
+						"access_rules": ["$tiny_uppies","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -884,7 +884,7 @@
                     },
 					{
                         "name": "Power Cell (Explore the Dark Cave)",
-						"access_rules": ["CanFight,[DoubleJump]","CanFight,[Crouch,CrouchJump]","$no_rando"],				
+						"access_rules": ["CanFight,DoubleJump","CanFight,Crouch,CrouchJump","$no_rando"],				
                         "item_count": 1
                     },
 					{
