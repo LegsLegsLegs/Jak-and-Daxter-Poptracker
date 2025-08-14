@@ -601,6 +601,7 @@
                     },
 					{
                         "name": "Power Cell (Break the Zeppelin Tether 3)",
+                        "access_rules": ["$tiny_uppies","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -610,6 +611,7 @@
                     },
 					{
                         "name": "Power Cell (Protect Farthy's Snacks)",
+                        "access_rules": ["$tiny_uppies","$no_rando"],
                         "item_count": 1
                     },
 					{
@@ -623,10 +625,12 @@
                     },
 					{
                         "name": "Scout Fly (Over First Jump Pad)",
+						"access_rules": ["$tiny_uppies","$no_rando"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (Over Second Jump Pad)",
+						"access_rules": ["$tiny_uppies","$no_rando"],                        
                         "item_count": 1
                     },
 					{
@@ -636,16 +640,17 @@
                     },
 					{
                         "name": "Scout Fly (Overlooking Flut Flut)",
-						"access_rules": ["[FlutFlut]"],
+						"access_rules": ["FlutFlut,$any_uppies"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (on Flut Flut Platforms)",
-						"access_rules": ["[FlutFlut]"],
+						"access_rules": ["FlutFlut,$any_uppies"],
                         "item_count": 1
                     },
 					{
                         "name": "Scout Fly (in Field of Boxes)",
+                        "access_rules": ["$any_uppies,$tiny_uppies","$no_rando"],
                         "item_count": 1
                     },
                     {
