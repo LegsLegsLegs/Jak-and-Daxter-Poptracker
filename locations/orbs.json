@@ -12,7 +12,7 @@
                     },
                     {
                         "name": "Power Cell Cliff",
-						"access_rules": ["[$over_and_uppies]","$no_rando"],
+						"access_rules": ["$over_and_uppies","$no_rando"],
                         "item_count": 2
                     }
                 ]
@@ -157,23 +157,28 @@
                 "access_rules": ["$cell_gate|1,Pontoons"],             
                 "sections": [
                     {
-                        "name": "Main",//combines Main, First Bats, First Tether, First Pole Course
-                        "item_count": 66
+                        "name": "Main",//combines Main
+                        "item_count": 23
                     },
                     {
-                        "name": "Far Jumps",//combines Second Bats, Fourth Jump Pad, Farthy Snacks, Box Field, Last Tar Pit,
-                        "access_rules": ["$long_jumps","$no_rando"],
-                        "item_count": 61
+                        "name": "Gap Jumps",//combines First Bats, First Tether, First Pole Course, Second Bats, Fourth Jump Pad, Flut Flut Pad, Farthy's Snacks
+                        "access_rules": ["$tiny_uppies","$no_rando"],
+                        "item_count": 118
+                    }, 
+                    {
+                        "name": "High Jumps",//combines  Box Field, Last Tar Pit, Fourth Tether
+                        "access_rules": ["$any_uppies,$tiny_uppies","$no_rando"],
+                        "item_count": 33
                     },   
                     {
                         "name": "Flut Flut Orbs",
                         "access_rules": ["FlutFlut"],
-                        "item_count": 59
+                        "item_count": 23
                     },
                     {
-                        "name": "Tether Pillars",//combines First Tether Rat Colony, Fourth Tether
-                        "access_rules": ["$any_uppies","$no_rando"],
-                        "item_count": 14
+                        "name": "Tether Pillars",//combines First Tether Rat Colony
+                        "access_rules": ["$long_jumps","$no_rando"],
+                        "item_count": 3
                     }
                 ]
             },
@@ -234,7 +239,7 @@
                     },
                     {
                         "name": "Dark Cave",
-                        "access_rules": ["CanFight,[DoubleJump]","CanFight,[Crouch,CrouchJump]","$no_rando"],
+                        "access_rules": ["CanFight,DoubleJump","CanFight,Crouch,CrouchJump","$no_rando"],
                         "item_count": 5
                     },
                     {
@@ -244,7 +249,7 @@
                     },
                     {
                         "name": "Robot Scaffolding Level One",
-                        "access_rules": ["[DoubleJump]","[Crouch,CrouchJump]","$no_rando"],
+                        "access_rules": ["DoubleJump","JumpKick","$no_rando"],
                         "item_count": 53
                     },
                     {
