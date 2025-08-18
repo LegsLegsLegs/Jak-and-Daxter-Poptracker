@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.5.2",
+			"download_url": "https://github.com/LegsLegsLegs/Jak-and-Daxter-Poptracker/archive/refs/tags/1.5.2.zip",
+			"sha256": "5777F47B6F51386C9815A793C33099B8958416D549954C7EDC9D7568F7DC3C0F",
+			"changelog": [Second batch of bug fixes since core release"]
+		},
+		{
 			"package_version": "1.5.1",
 			"download_url": "https://github.com/LegsLegsLegs/Jak-and-Daxter-Poptracker/archive/refs/tags/1.5.1.zip",
 			"sha256": "034FB63A79D2931792FC3EB65D4DCC4450077745879BDC244E93B574D5E2C039",
@@ -50,5 +56,6 @@
 		}
 	]
 }
+
 
 
