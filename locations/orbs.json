@@ -197,7 +197,7 @@
                     },
                     {
                         "name": "Helix Room",
-                        "access_rules": ["DoubleJump","CanFight","$no_rando"],
+						"access_rules": ["$some_uppies,CanFight","$some_uppies,DoubleJump","$no_rando"],
                         "item_count": 30
                     },
                     {

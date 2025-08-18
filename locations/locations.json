@@ -700,7 +700,7 @@
                     },
 					{
                         "name": "Power Cell (Climb the Slide Tube)",
-						"access_rules": ["DoubleJump","CanFight","$no_rando"],
+						"access_rules": ["$some_uppies,CanFight","$some_uppies,DoubleJump","$no_rando"],
                         "item_count": 1
                     },
 					{
