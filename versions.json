@@ -2,6 +2,12 @@
 	"versions": [
 		{
 			"package_version": "1.5.2",
+			"download_url": "https://github.com/LegsLegsLegs/Jak-and-Daxter-Poptracker/archive/refs/tags/1.5.3.zip",
+			"sha256": "95FE3B65600278AD73A9A06DFB0AE752C8EE1B7CED8ECA301C92B9EA4A3C4E34",
+			"changelog": ["Klaww logic fix"]
+		},
+		{
+			"package_version": "1.5.2",
 			"download_url": "https://github.com/LegsLegsLegs/Jak-and-Daxter-Poptracker/archive/refs/tags/1.5.2.zip",
 			"sha256": "5777F47B6F51386C9815A793C33099B8958416D549954C7EDC9D7568F7DC3C0F",
 			"changelog": ["Second batch of bug fixes since core release"]
@@ -56,6 +62,7 @@
 		}
 	]
 }
+
 
 
 
