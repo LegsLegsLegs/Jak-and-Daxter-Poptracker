@@ -773,7 +773,7 @@
         "children": [
             {
                 "name": "Klaww",
-				"access_rules": ["$cell_gate|2,$no_rando,Pontoons","$cell_gate|2,$over_and_uppies,$punch_for_klaww,Pontoons"],
+				"access_rules": ["$cell_gate|2,$no_rando,Pontoons","$cell_gate|2,$over_and_over_and_uppies,$punch_for_klaww,Pontoons"],
                 "sections": [
                     {
                         "name": "Power Cell (Defeat Klaww)",
