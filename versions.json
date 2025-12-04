@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.5.5",
+			"download_url": "https://github.com/LegsLegsLegs/Jak-and-Daxter-Poptracker/archive/refs/tags/1.5.5.zip",
+			"sha256": "657F448E3638A9FF6F220277DA77444E7DD853D53E1BAC1C97B877410C0A40F6",
+			"changelog": ["The plant is dead"]
+		},
+		{
 			"package_version": "1.5.3",
 			"download_url": "https://github.com/LegsLegsLegs/Jak-and-Daxter-Poptracker/archive/refs/tags/1.5.3.zip",
 			"sha256": "95FE3B65600278AD73A9A06DFB0AE752C8EE1B7CED8ECA301C92B9EA4A3C4E34",
@@ -62,6 +68,7 @@
 		}
 	]
 }
+
 
 
 
